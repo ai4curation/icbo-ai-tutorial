@@ -17,6 +17,13 @@ After a few minutes you will see:
 
 Click the "*" claude
 
+__IMPORTANT__ if you see a box asking you to log in, IGNORE IT - just wait a few seconds
+
+You will then see something like this:
+
+<img width="1118" height="651" alt="image" src="https://github.com/user-attachments/assets/6bdf2246-c28f-4094-8cbf-39892180ea47" />
+
+
 
 ## Acknowledgements
 
