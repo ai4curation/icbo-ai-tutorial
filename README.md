@@ -1,5 +1,3 @@
-
-![Build Status](https://github.com/ai4curation/go/actions/workflows/qc.yml/badge.svg)
 # ICBO Tutorial
 
 ## Starting a codespace
@@ -13,6 +11,11 @@ After you start the codespace you will see:
 
 Be patient!
 
+After a few minutes you will see:
+
+<img width="1755" height="750" alt="image" src="https://github.com/user-attachments/assets/8bdc9877-89d1-4a21-80c0-150be8121f83" />
+
+Click the "*" claude
 
 
 ## Acknowledgements
