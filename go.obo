@@ -1,0 +1,14 @@
+format-version: 1.2
+data-version: releases/2025-11-03
+idspace: dce http://purl.org/dc/elements/1.1/ 
+idspace: dcterms http://purl.org/dc/terms/ 
+ontology: go
+property_value: dcterms:description "None" xsd:string
+property_value: dcterms:license https://creativecommons.org/licenses/unspecified
+property_value: dcterms:title "GO Molecular Function" xsd:string
+property_value: owl:versionInfo "2025-11-03" xsd:string
+
+[Term]
+id: GO:0000000
+name: root node
+

@@ -1,0 +1,28 @@
+# PURL configuration for http://purl.obolibrary.org/obo/go
+
+idspace: GO
+base_url: /obo/go
+
+products:
+- go.owl: https://raw.githubusercontent.com/ai4curation/go/main/go.owl
+- go.obo: https://raw.githubusercontent.com/ai4curation/go/main/go.obo
+
+term_browser: ontobee
+example_terms:
+- GO_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/ai4curation/go/v
+
+- prefix: /tracker/
+  replacement: https://github.com/ai4curation/go/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/GO?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/ai4curation/go/main/
+
