@@ -17,7 +17,7 @@ Be patient! After a few (typically about 3-5) minutes you will see:
 
 Click the red asterisk-like Claude icon above the main central window:
 
-<img width="652" height="210" alt="image" src="https://github.com/user-attachments/assets/claude-code-open.png" />
+<img width="326" height="105" alt="claude-code-open" src="https://github.com/user-attachments/assets/16acc023-5d34-4cef-9256-d0b520fe27d1" />
 
 __IMPORTANT:__ if you see a box asking you to log in, IGNORE IT - just wait a few seconds and it will go away.
 
