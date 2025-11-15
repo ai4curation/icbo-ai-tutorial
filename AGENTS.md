@@ -1,6 +1,6 @@
 # VBO Ontology Project Guide
 
-This includes instructions for editing the npso ontology. 
+This includes instructions for editing the vertebrate breed ontology. 
 
 ## Project Layout
 - Main development file is `src/ontology/vbo-edit.obo`
