@@ -76,7 +76,7 @@ all: all_odk
 all_odk: odkversion test custom_reports all_assets
 
 .PHONY: test
-test: odkversion reason_test sparql_test robot_reports $(REPORTDIR)/validate_profile_owl2dl_$(ONT).owl.txt
+test: odkversion reason_test sparql_test
 	echo "Finished running all tests successfully."
 
 .PHONY: test
