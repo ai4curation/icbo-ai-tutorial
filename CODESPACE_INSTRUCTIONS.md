@@ -5,7 +5,7 @@
 Go to this repo (https://github.com/ai4curation/icbo-ai-tutorial), click the green "<> Code" button, and select the "Codespaces" tab:
 <img width="1145" height="591" alt="image" src="https://github.com/user-attachments/assets/1bc5e9a3-6326-4668-8f49-37bd3cca0c17" />
 
-Click the green button labeled "Create codespace on main".
+Click the green button labeled "Create codespace on main". (You may instead see a "+" icon to create the codespace.)
 
 When you start the codespace you will initially see this while it loads:
 
