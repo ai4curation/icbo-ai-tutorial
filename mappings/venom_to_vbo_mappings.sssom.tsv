@@ -4,7 +4,12 @@
 #   skos: http://www.w3.org/2004/02/skos/core#
 #   semapv: https://w3id.org/semapv/vocab/
 # mapping_set_id: https://w3id.org/ai4curation/icbo-ai-tutorial/mappings/venom_to_vbo_mappings.sssom.tsv
+# mapping_set_description: Mappings between VeNom veterinary nomenclature cat breed terms and Vertebrate Breed Ontology (VBO) identifiers
 # license: https://creativecommons.org/licenses/by/4.0/
+# mapping_date: 2025-11-18
+# creator_id: https://orcid.org/0000-0002-4142-7153
+# mapping_tool: Claude Code (manual curation)
+# mapping_tool_version: claude-sonnet-4-5-20250929
 #
 subject_id	subject_label	predicate_id	object_id	mapping_justification	confidence	mapping_date	comment
 VeNom:15238	Abyssinian	skos:exactMatch	VBO:0001830	semapv:ManualMappingCuration	0.95	2025-11-18	
