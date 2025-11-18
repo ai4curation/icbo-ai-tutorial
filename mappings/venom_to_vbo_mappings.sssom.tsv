@@ -10,7 +10,6 @@
 # creator_id: https://orcid.org/0000-0002-4142-7153
 # mapping_tool: Claude Code (manual curation)
 # mapping_tool_version: claude-sonnet-4-5-20250929
-#
 subject_id	subject_label	predicate_id	object_id	mapping_justification	confidence	mapping_date	comment
 VeNom:15238	Abyssinian	skos:exactMatch	VBO:0001830	semapv:ManualMappingCuration	0.95	2025-11-18	
 VeNom:22655	Allerca Hypoallergenic Cat	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
