@@ -61,361 +61,350 @@ This includes instructions for editing the vertebrate breed ontology.
 - To validate syntax: `robot convert --catalog src/ontology/catalog-v001.xml -i src/ontology/vbo-edit.obo -f obo -o vbo-edit.TMP.obo`
 - Use `-vvv` for a full stack trace if there are errors.
 
-## Vbo Guidelines
+# Vbo Guidelines
 
-## Mappings
 
-Mappings are an integral part of Vbo. You should never create mappings unless requested by a user, if they do, make sure metadata is correct
+## Basic Breed Term Structure
 
-Vbo has an idiosyncratic way of adding metadata to mappings. Indicating the kind of mapping is important, this is dome by overloading
-the source qualifier and using an ID like VBO:equivalentTo. Also the original source can be included:
+### Minimal Term Example
 
-```
-[Term]
-id: VBO:0800447
-name: bleeding disorder, platelet-type, 13, susceptibility to
-subset: predisposition
-synonym: "BDPLT13" EXACT ABBREVIATION [VBO:Lexical, OMIM:614009]
-synonym: "bleeding disorder, platelet-type, 13, susceptibility to" EXACT [VBO:Lexical, OMIM:614009]
-synonym: "bleeding disorder, susceptibility to, due to defective platelet thromboxane A2 receptor" EXACT [OMIM:614009]
-synonym: "susceptibility to platelet-type bleeding disorder 13" EXACT []
-xref: MEDGEN:481244 {source="VBO:equivalentTo", source="VBO:MEDGEN"}
-xref: OMIM:614009 {source="Orphanet:220443", source="VBO:equivalentTo", source="Orphanet:220443/e"}
-xref: UMLS:C3279614 {source="VBO:equivalentTo", source="VBO:MEDGEN", source="MEDGEN:481244"}
-is_a: VBO:0020573 {source="OMIM:614009"} ! inherited disease susceptibility
-relationship: has_material_basis_in_germline_mutation_in http://identifiers.org/hgnc/11608 {source="VBO:mim2gene_medgen"} ! TBXA2R
-relationship: predisposes_towards VBO:0800446 {source="OMIM:614009"} ! bleeding diathesis due to thromboxane synthesis deficiency
-property_value: curated_content_resource "https://www.malacards.org/card/bleeding_disorder_platelet_type_13" xsd:anyURI {source="VBO:MalaCards"}
-property_value: IAO:0000233 "https://github.com/monarch-initiative/vbo/issues/6419" xsd:string
-```
+Every breed term has the recommended structure:
 
-## Obsoleting terms
+- **id**: VBO identifier
+- **name**: Primary breed name with species qualifier
+- **is_a**: Taxonomy (NCBITaxon) parent
+- **is_a**: VBO:0400000 (Vertebrate breed)
+- **synonym**: At least one synonym marked as `most_common_name`
+- **dcterms:contributor**: ORCID(s) of contributor(s)
+- **dcterms:source**: Source URL(s) or publication(s)
 
-obsolete terms should have no logical axioms (is_a, relationship,
-intersection_of) on them. Obsolete terms may be replaced by a single
-term (so-called obsoletion with exact replacement), or by zero to many `consider` tags.
+**Exemplar** - VBO:0000042 (Andaluza (Ass)):
 
 ```
 [Term]
-id: VBO:0100229
-name: obsolete Heimler syndrome
-def: "OBSOLETE. A peroxisoome biogenesis disorder characterized by sensorineural hearing loss, enamel hypoplasia of the secondary dentition, nail abnormalities and occasional or late-onset retinal pigmentation abnormalities, in which the cause of the disease is a mutation in peroxisomal biogenesis factor 1 (PEX1) or peroxisomal biogenesis factor 6 (PEX6) genes." [VBO:patterns/disease_series_by_gene, PMID:26387595]
-subset: ordo_disorder {source="Orphanet:3220"}
-subset: ordo_malformation_syndrome {source="Orphanet:3220"}
-synonym: "bilateral sensorineural hearing loss, enamel hypoplasia and nail defects" RELATED [GARD:0001687]
-synonym: "deafness enamel hypoplasia nail defects" RELATED [GARD:0001687]
-synonym: "deafness-enamel hypoplasia-nail defects syndrome" EXACT [VBO:0009325]
-synonym: "Heimler syndrome" EXACT []
-synonym: "sensorineural hearing loss, enamel hypoplasia, and nail abnormalities" RELATED [GARD:0001687]
-xref: MESH:C535994 {source="VBO:obsoleteEquivalent", source="Orphanet:3220/e", source="Orphanet:3220"}
-xref: Orphanet:3220 {source="OMIM:234580", source="VBO:obsoleteEquivalent"}
-xref: SCTID:721085000 {source="VBO:obsoleteEquivalent"}
-property_value: http://purl.org/dc/terms/creator https://orcid.org/0000-0001-5208-3432
-property_value: IAO:0000231 OMO:0001000
-property_value: IAO:0000233 "https://github.com/monarch-initiative/vbo/issues/3222" xsd:anyURI
-is_obsolete: true
-consider: VBO:0100259
+id: VBO:0000042
+name: Andaluza (Ass)
+subset: transboundary
+synonym: "Andaluza" EXACT most_common_name [] {source="ISBN:9781789241532", source="ISBN:9781845934668", source="https://www.fao.org/dad-is"}
+is_a: NCBITaxon:9793 ! Equus asinus
+is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
+property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
+property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
+property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:source "https://www.fao.org/dad-is" xsd:anyURI
+property_value: dcterms:source "ISBN:9781789241532" xsd:string
+property_value: dcterms:source "ISBN:9781845934668" xsd:string
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/120" xsd:anyURI
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/126" xsd:anyURI
 ```
 
-Synonyms and xrefs can be migrated judiciously,
+When working from a GitHub issue, use the orcid of the person making the request
 
-We never do complete merges now, so there should be no `alt_ids` or
-disappearing stanzas. If a user asks for a merge, they usually mean
-obsoletion with direct replacement, as here:
+## Naming Conventions
 
-Example:
+### Primary Names
+- **Format**: `[Breed Name] ([Species Common Name])`
+- **Examples**:
+  - `Abyssinian (Cat)` - VBO:0100000
+  - `Broholmer (Dog)` - VBO:0000661
+  - `Arab Camel (Dromedary)` - VBO:0000671
+  - `Andaluza (Ass)` - VBO:0000042
+
+### Geographic Variants
+When a breed is reported in specific countries:
+- **Format**: `[Breed Name], [Country] ([Species])`
+- **Example**: `Lacaune, United Kingdom of Great Britain and Northern Ireland (Sheep)` - VBO:0015919
+
+### Breed Groups
+For parent/grouping terms:
+- Use lowercase "breed" suffix
+- **Examples**:
+  - `Alpaca breed` - VBO:0000038
+  - `cat breed` - VBO:7770001
+  - `dog breed` - VBO:7770002
+
+---
+
+## Taxonomy and Classification
+
+### Species Assignment
+
+Every breed SHOULD have exactly one NCBITaxon parent:
+
+E.g.
 
 ```
-[Term]
-id: VBO:0100334
-name: obsolete viral infectious disease or sequela
-property_value: http://purl.org/dc/terms/creator https://orcid.org/0000-0001-5208-3432
-property_value: IAO:0000231 VBO:TermsMerged
-property_value: IAO:0000233 "https://github.com/monarch-initiative/vbo/pull/3118#issuecomment-871858054" xsd:anyURI
-is_obsolete: true
-replaced_by: VBO:0100321
+is_a: NCBITaxon:9685 ! Felis catus
+is_a: NCBITaxon:9615 ! Canis lupus familiaris
+is_a: NCBITaxon:9940 ! Ovis aries
 ```
 
-No relationship should point to an obsolete term - when you obsolete a term, you may need to also rewire
-terms to "skip" the obsoleted term.
+### Breed Hierarchy
 
-## Other metadata
-
-- Link back to the issue you are dealing with using the `term_tracker_item`
-- All terms should have definitions, with at least one definition xref, ideally a PMID
-
-
-You can sign NEW terms using with a tag-value like this: (don't tag pre-existing terms)
-
+All top level breed terms must assert:
 ```
-property_value: http://purl.org/dc/terms/creator doi:10.1186/s13326-024-00320-3
+is_a: VBO:0400000 ! Vertebrate breed
 ```
 
-You don't need to add a date, this will be handled for you
+With provenance:
+```
+is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
+```
+
+### Intermediate Groupings (Optional)
+Breeds may belong to intermediate groups:
+```
+is_a: VBO:0400019 ! Bovine breed
+is_a: VBO:0400032 ! South American camelid breed
+```
+
+---
+
+## Synonyms
+
+### Synonym Structure
+
+```
+synonym: "[Synonym Text]" [SCOPE] [TYPE] [] {source="[Source URL or DOI]"}
+```
+
+### Synonym Scopes
+- **EXACT**: Exact synonym
+- **RELATED**: Related term
+- **NARROW**: More specific term
+- **BROAD**: Less specific term
+
+### Synonym Types
+- **most_common_name**: The most commonly used name (exactly ONE per term)
+- **ABBREVIATION**: For acronyms/abbreviations
+
+### Best Practices
+1. **Always provide sources** for synonyms
+2. **Mark exactly one synonym** as `most_common_name`
+3. **Multiple sources** can be cited for the same synonym
+
+**Exemplar** - VBO:0000663 (Danish-Swedish Farmdog):
+```
+synonym: "Danish-Swedish Farmdog" EXACT most_common_name [] {source="https://www.akc.org/dog-breeds/danish-swedish-farmdog/", source="https://www.fci.be/en/nomenclature/DANISH-SWEDISH-FARMDOG-356.html"}
+synonym: "Danish-Swedish Farm Dog" EXACT [] {source="https://venomcoding.org/venom-codes/"}
+synonym: "Dansk-Svensk Gårdshund" EXACT [] {source="https://www.fci.be/en/nomenclature/DANISH-SWEDISH-FARMDOG-356.html"}
+synonym: "Scanian terrier" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=86"}
+```
+
+---
+
+## Properties
+
+### Breed Codes
+Official breed registration codes:
+```
+property_value: breed_code "ABY" xsd:string {source="https://fifeweb.org/cats/breeds/"}
+property_value: breed_code "AB" xsd:string {source="https://www.tica.org/phocadownload/ab.pdf"}
+```
+
+### Breed Recognition Status
+Recognition by official organizations:
+```
+property_value: breed_recognition_status VBO:0300002 {source="https://cfa.org/breeds/"}
+property_value: breed_recognition_status VBO:0300003 {source="https://www.akc.org/dog-breeds/"}
+property_value: breed_recognition_status VBO:0300004 {source="https://wcf.de/en/wcf-ems-code/"}
+```
+
+Where:
+- VBO:0300002 = Officially recognized
+- VBO:0300003 = Foundation Stock Service
+- VBO:0300004 = Provisionally accepted
+
+### Subset Membership
+```
+subset: transboundary  # For breeds found in multiple countries
+subset: rare           # For rare breeds
+```
+
+---
 
 ## Relationships
 
-All terms should have at least one `is_a` (this can be implicit by a logical definition, see below).
+### has foundation stock (VBO:0300019)
+Used when a breed was developed from other breeds or species:
 
-Some other terms may have relationships but these will generally follow existing patterns.
+**Exemplar** - VBO:0100040 (Bengal Cat):
+```
+relationship: VBO:0300019 VBO:0100000 {source="https://en.wikipedia.org/wiki/Bengal_cat"} ! has foundation stock Abyssinian (Cat)
+relationship: VBO:0300019 VBO:0100029 {source="https://www.tica.org/breeds/"} ! has foundation stock Asian Leopard Cat (Cat)
+relationship: VBO:0300019 VBO:0100053 {source="https://www.gccfcats.org/"} ! has foundation stock Burmese (Cat)
+```
 
-## Logical definitions
+**Key Points**:
+- Always include source attribution
+- Can point to other breeds OR to wild species (NCBITaxon terms)
+- Multiple foundation stocks are common
 
-These should follow genus-differentia form, and the text definition should mirror the logical definition. Example:
+### breed reported in geographic location (VBO:0300020)
+Links geographic variants to their location:
+```
+relationship: VBO:0300020 http://www.wikidata.org/entity/Q145 {source="https://www.fao.org/dad-is"}
+```
 
+Uses Wikidata entities for countries/regions.
+
+---
+
+## Metadata and Provenance
+
+### Contributors
+**REQUIRED**: Use ORCID identifiers:
+```
+property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
+property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
+property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
+```
+
+### Sources
+**REQUIRED**: Document all data sources:
+```
+property_value: dcterms:source "https://www.fao.org/dad-is" xsd:anyURI
+property_value: dcterms:source "http://omia.org" xsd:anyURI
+property_value: dcterms:source "ISBN:9781789241532" xsd:string
+```
+
+**URI vs String**:
+- URLs: `xsd:anyURI`
+- ISBNs, DOIs (when formatted as strings): `xsd:string`
+
+### Issue Tracking
+Link to GitHub issues:
+```
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/200" xsd:anyURI
+```
+
+Multiple issues can be referenced:
+```
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/120" xsd:anyURI
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/126" xsd:anyURI
+```
+
+### Creation Dates (for relationships/properties)
+For new relationship types:
+```
+property_value: dcterms:created "2024-04-11T14:49:29Z" xsd:dateTime
+```
+
+---
+
+## External References
+
+### Cross-References (xrefs)
+Link to external databases:
+```
+xref: FCI:315 {source="https://www.fci.be/en/nomenclature/BROHOLMER-315.html"}
+xref: iDog:55 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=55"}
+xref: VeNom:13964 {source="https://venomcoding.org/venom-codes/"}
+```
+
+Common databases:
+- **FCI**: Fédération Cynologique Internationale (dog breeds)
+- **iDog**: iDog database
+- **VeNom**: Veterinary Nomenclature
+- **OMIA**: Online Mendelian Inheritance in Animals
+
+**Always include source** attribution for xrefs.
+
+---
+
+## Comments and Definitions
+
+### Definitions
+For parent/grouping terms:
+```
+def: "A breed of Vicugna pacos." [] {source="https://orcid.org/0000-0002-5002-8648", source="https://orcid.org/0000-0002-4142-7153"}
+```
+
+### Comments
+Provide context when needed:
+```
+comment: The concept of "breed reported in geographic location by FAO National Coordinators" is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
+```
+
+---
+
+## Logical Definitions (Advanced)
+
+### Disjointness Axioms
+For mutually exclusive classes:
+
+**Exemplar** - VBO:7770001 (cat breed) and VBO:7770002 (dog breed):
 ```
 [Term]
-id: VBO:0000715
-name: lymph node adenoid cystic carcinoma
-def: "A adenoid cystic carcinoma that involves the lymph node." [VBO:patterns/location]
-subset: gard_rare {source="VBO:GARD"}
-subset: rare
-synonym: "lymph node adenoid cystic cancer" RELATED []
-synonym: "lymph node adenoid cystic carcinoma" EXACT [DOID:0060219, VBO:patterns/location]
-xref: DOID:0060219 {source="VBO:equivalentTo"}
-is_a: VBO:0001082 {source="DOID:0060219", source="VBO:Entailed", source="VBO:Redundant"} ! lymph node cancer
-intersection_of: VBO:0004971 ! adenoid cystic carcinoma
-intersection_of: disease_has_location UBERON:0000029 ! lymph node
-property_value: curated_content_resource "https://www.malacards.org/card/lymph_node_adenoid_cystic_carcinoma" xsd:anyURI {source="VBO:MalaCards"}
+id: VBO:7770001
+name: cat breed
+def: "A vertebrate breed that is a breed of Felis catus (domestic cat)." [https://orcid.org/0000-0002-7638-4659]
+intersection_of: VBO:0400000 ! Vertebrate breed
+intersection_of: derived_from NCBITaxon:9685 ! Felis catus
+disjoint_from: VBO:7770002 ! dog breed
 ```
 
-The reasoner can find the most specific `is_a`, so it's OK to leave this off, unless there is provenance to be added.
+---
 
-## Design patterns
+## Relationship Type Definitions
 
-Check:
+### Creating New Relationships
+Use `[Typedef]` stanzas:
 
-`src/patterns/dosdp-patterns/*yaml`
-
-For the DOSDP design pattern which guides how the term should be created.
-
-## 1. Gene-Related Disease Naming Conventions
-
-The documentation should include explicit naming patterns for gene-related diseases:
-
-```markdown
-## Gene-Disease Naming Conventions
-
-For monogenic diseases, VBO follows the pattern: `{GENE}-related {disease description}`
-
-Examples:
-- ALG8-related autosomal dominant polycystic kidney and/or liver disease
-- MYCBP2-related developmental delay with corpus callosum defects
-- TUBB4B-related ciliopathy
-
-This pattern should be used even when users request alternative formats like "disease - GENE" format.
-```
-
-## 2. Synonym Attribution and Citation Requirements
-
-The current documentation lacks specific guidance on synonym citations:
-
-```markdown
-## Synonym Citation Requirements
-
-ALL synonyms must include proper citations:
-
-**Correct examples:**
-```
-synonym: "EBV-associated lymphoproliferative disorder" EXACT [PMID:38882456]
-synonym: "MDCD" EXACT ABBREVIATION [PMID:36200388]
-synonym: "CHD4-related neurodevelopmental disorder" EXACT [https://orcid.org/0000-0001-9310-0163, Orphanet:653712]
-```
-
-**Never use empty brackets:**
-```
-synonym: "term name" EXACT []  # INCORRECT
-```
-
-### ClinGen Label Handling
-When ClinGen provides preferred labels, use the "preferred label by community" qualifier:
-```
-synonym: "Hajdu-Cheney syndrome-NOTCH2" EXACT [] {OMO:0002001="https://w3id.org/information-resource-registry/clingen"}
-```
-```
-
-## 3. Design Pattern Recognition and Application
-
-```markdown
-## Design Pattern Compliance
-
-Before creating new terms, ALWAYS check for applicable design patterns:
-
-1. Search `src/patterns/dosdp-patterns/*.yaml` for relevant patterns
-2. Common patterns include:
-   - `disease_series_by_gene.yaml` - for diseases caused by mutations in specific genes
-   - `susceptibility_by_gene.yaml` - for genetic susceptibility factors
-   - `childhood.yaml` - for childhood-onset conditions
-
-### Gene-Based Disease Pattern Requirements
-
-When following the disease_series_by_gene pattern:
-
-**Required logical structure:**
-```
-is_a: VBO:0700092 ! neurodevelopmental disorder
-intersection_of: VBO:0700092 ! neurodevelopmental disorder
-intersection_of: has_material_basis_in_germline_mutation_in http://identifiers.org/hgnc/23386 ! MYCBP2
-relationship: has_material_basis_in_germline_mutation_in http://identifiers.org/hgnc/23386 {source="PMID:36200388"} ! MYCBP2
-```
-
-**Definition template:**
-```
-def: "Any [parent disease class] in which the cause of the disease is a mutation in the [GENE] gene." [PMID:references]
-```
-```
-
-## 4. Parent Term Selection Guidelines
-
-```markdown
-## Parent Term Selection Guidelines
-
-### For Gene-Related Diseases
-- Use the most general appropriate disease category that encompasses all known phenotypes
-- For multi-system diseases, consider dual parentage rather than single broad syndromic parent
-- Example: For neuro-urological conditions, use both `nervous system disorder` AND `urinary system disorder`
-
-### Avoid Over-Specific Parents
-- Don't default to "inherited disease" unless inheritance is the primary distinguishing feature
-- Consider the full phenotypic spectrum, not just the most common presentations
-```
-
-## 5. Source Attribution in Relationships
-
-```markdown
-## Source Attribution Requirements
-
-All logical axioms must include source attribution when based on literature:
+**Exemplar** - VBO:0300019:
 
 ```
-is_a: VBO:0700092 {source="PMID:36200388", source="https://orcid.org/0000-0001-9310-0163"} ! neurodevelopmental disorder
-relationship: has_material_basis_in_germline_mutation_in http://identifiers.org/hgnc/23386 {source="PMID:36200388"} ! MYCBP2
+[Typedef]
+id: VBO:0300019
+name: has foundation stock
+def: "A relation between two distinct material entities (breeds or species), a descendant entity and an ancestor entity, in which the descendant entity is the result of mating, manipulation, or geographical or cultural isolation of the ancestor entity, therefore inheriting some of the ancestor's genetic material." []
+comment: [Detailed explanation with examples]
+property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
+property_value: dcterms:created "2024-04-11T14:49:29Z" xsd:dateTime
+property_value: IAO:0000116 "Additional notes about usage" xsd:string
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/209" xsd:anyURI
+domain: NCBITaxon:7742 ! Vertebrata
+is_transitive: true
 ```
 
-Multiple sources can be cited for the same relationship.
-```
+---
 
-## 6. Gene Identifier Verification
+## Summary of Key Principles
 
-```markdown
-## Gene Identifiers
+1. **Complete Attribution**: Every fact must have a source
+2. **Multiple Sources**: Cite all sources that support a claim
+3. **ORCID for People**: Use ORCID IDs for contributors
+4. **GitHub Issues**: Link terms to issues for traceability
+5. **Consistent Naming**: Follow species-specific naming patterns
+6. **One most_common_name**: Exactly one synonym must be marked as most common
+7. **Source Provenance**: Add {source="..."} to relationships, synonyms, and property_values
+8. **External IDs**: Include xrefs to authoritative databases with sources
 
-**CRITICAL**: Always verify gene identifiers for human diseases use the official HGNC database:
-- Search at https://www.genenames.org/
-- Use format: `http://identifiers.org/hgnc/[HGNC_ID]`
-- NEVER guess gene identifiers
+---
 
-Example: For MYCBP2 gene, use `http://identifiers.org/hgnc/23386`, NOT `http://identifiers.org/hgnc/7557`
+## Common Patterns by Species
 
-**CRITICAL**: Always verify gene identifiers for non-human animal diseases, use gene identifiers from NCBI gene:
-- To search for a gene within a species, e.g. dog, use a search URL like https://www.ncbi.nlm.nih.gov/gene/?term=Canis+lupus+familiaris+MAP9
-- Use format: `http://identifiers.org/ncbigene/[NCBI_GENE_ID]`
-- Never guess at gene identifiers
+### Cat Breeds
+- Species: NCBITaxon:9685 (Felis catus)
+- Common sources: CFA, TICA, FIFe, WCF, GCCF
+- Name format: `[Breed] (Cat)`
 
-Example: For MAP9 gene from Canis lupus familiaris (dog), use `http://identifiers.org/ncbigene/482662`.
-```
+### Dog Breeds
+- Species: NCBITaxon:9615 (Canis lupus familiaris)
+- Common sources: FCI, AKC, UKC, iDog
+- Name format: `[Breed] (Dog)`
 
-## 7. Susceptibility vs Disease Relationships
+### Sheep Breeds
+- Species: NCBITaxon:9940 (Ovis aries)
+- Common sources: FAO DAD-IS
+- Name format: `[Breed] (Sheep)` or `[Breed], [Country] (Sheep)`
 
-```markdown
-## Susceptibility Term Guidelines
+### Camel Breeds
+- Dromedary: NCBITaxon:9838 (Camelus dromedarius)
+- Bactrian: NCBITaxon:9837 (Camelus bactrianus)
+- Name format: `[Breed] (Dromedary)` or `[Breed] (Bactrian camel)`
 
-Susceptibility terms should use `predisposes_towards` relationships, NOT `is_a` relationships:
 
-**Correct:**
-```
-[Term]
-id: VBO:1060111
-name: SAMD9L-related spectrum and myeloid neoplasm risk
-is_a: VBO:0020573 ! inherited disease susceptibility
-relationship: predisposes_towards VBO:0008038 ! ataxia-pancytopenia syndrome
-relationship: predisposes_towards VBO:0018881 ! myelodysplastic syndrome
-```
-
-**Incorrect:**
-```
-[Term]
-id: VBO:0008038
-name: ataxia-pancytopenia syndrome
-is_a: VBO:1060111 ! SAMD9L-related spectrum and myeloid neoplasm risk
-```
-```
-
-## 8. Term Obsolescence and Merging
-
-```markdown
-## Term Obsolescence Guidelines
-
-### For Simple Obsolescence
-```
-[Term]
-id: VBO:0100334
-name: obsolete viral infectious disease or sequela
-property_value: IAO:0000231 OMO:0001000 {source="VBO:excludePhenotype"}
-property_value: IAO:0000233 "https://github.com/monarch-initiative/vbo/issues/XXXX" xsd:anyURI
-is_obsolete: true
-replaced_by: VBO:0100321
-```
-
-### For Term Merging
-Use `VBO:TermsMerged` and migrate ALL relevant content to the surviving term:
-- Synonyms with proper source attribution
-- Cross-references with updated source qualifiers
-- Relevant subsets
-
-Remove ALL logical axioms and definitions from obsoleted terms.
-```
-
-## 9. Definition Enhancement Standards
-
-```markdown
-## Definition Guidelines
-
-### Gene-Related Diseases
-Use the pattern: "Any [parent disease] in which the cause of the disease is a mutation in the [GENE] gene."
-
-### Clinical Descriptions  
-- Use sentence case for medical terms
-- Be specific but broadly applicable
-- Include inheritance patterns when known
-- Cite multiple sources when available: `[https://clinicalgenome.org/affiliation/40066/, PMID:29535429]`
-```
-
-## 10. Quality Control Exclusions
-
-```markdown
-## QC Check Exclusions
-
-Some terms may legitimately violate QC checks and need exclusions:
-
-```
-relationship: excluded_from_qc_check http://purl.obolibrary.org/obo/vbo/sparql/qc/general/qc-single-child.sparql
-```
-
-Common cases include:
-- Terms with initially single children pending additional curation
-- Terms created for organizational purposes by domain experts
-```
-
-## 11. Complete Exemplar Stanzas
-
-The documentation should include complete examples showing all required elements:
-
-```obo
-[Term]
-id: VBO:1060117
-name: MYCBP2-related developmental delay with corpus callosum defects
-def: "Any neurodevelopmental disorder in which the cause of the disease is a mutation in the MYCBP2 gene. This condition is characterized by variable corpus callosum defects consistent with dysgenesis, and a broad spectrum of neurobehavioural deficits including developmental delay, intellectual disability, epilepsy, and autistic features." [https://orcid.org/0000-0001-9310-0163, PMID:36200388]
-synonym: "MDCD" EXACT ABBREVIATION [PMID:36200388]
-is_a: VBO:0700092 {source="PMID:36200388", source="https://orcid.org/0000-0001-9310-0163"} ! neurodevelopmental disorder
-intersection_of: VBO:0700092 ! neurodevelopmental disorder
-intersection_of: has_material_basis_in_germline_mutation_in http://identifiers.org/hgnc/23386
-relationship: has_material_basis_in_germline_mutation_in http://identifiers.org/hgnc/23386 {source="PMID:36200388", source="https://orcid.org/0000-0001-9310-0163"} ! MYCBP2
-property_value: http://purl.org/dc/terms/creator https://orcid.org/0000-0002-7638-4659
-property_value: IAO:0000233 "https://github.com/monarch-initiative/vbo/issues/XXXX" xsd:anyURI
-```
-
-These improvements would help AI systems better understand VBO's specific conventions and produce changes that more closely align with human expert curation practices.
 
 ## IMPORTANT
 
