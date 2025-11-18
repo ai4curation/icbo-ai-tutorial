@@ -1,0 +1,152 @@
+# curie_map:
+#   VeNom: https://venomcoding.org/venom-codes/
+#   VBO: http://purl.obolibrary.org/obo/VBO_
+#   skos: http://www.w3.org/2004/02/skos/core#
+#   semapv: https://w3id.org/semapv/vocab/
+# mapping_set_id: https://w3id.org/ai4curation/icbo-ai-tutorial/mappings/venom_to_vbo_mappings.sssom.tsv
+# mapping_set_description: Mappings between VeNom veterinary nomenclature cat breed terms and Vertebrate Breed Ontology (VBO) identifiers
+# license: https://creativecommons.org/licenses/by/4.0/
+# mapping_date: 2025-11-18
+# creator_id: https://orcid.org/0000-0002-4142-7153
+# mapping_tool: Claude Code (manual curation)
+# mapping_tool_version: claude-sonnet-4-5-20250929
+#
+subject_id	subject_label	predicate_id	object_id	mapping_justification	confidence	mapping_date	comment
+VeNom:15238	Abyssinian	skos:exactMatch	VBO:0001830	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:22655	Allerca Hypoallergenic Cat	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:18082	American Bobtail (unspecified)	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:15239	American Bobtail, Long-Haired	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:15240	American Bobtail, Short-Haired	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:15241	American Curl	skos:exactMatch	VBO:0010519	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:15242	American Ringtail	skos:exactMatch	VBO:0100017	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:15243	American Short Hair	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:15244	American Wire Hair	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:15245	Anatolian	skos:exactMatch	VBO:0000065	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:15246	Angora	skos:exactMatch	VBO:0000723	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:22656	Arabian Mau	skos:exactMatch	VBO:0100027	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:22657	Ashanti	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:18084	Asian	skos:exactMatch	VBO:0000174	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:18086	Australian Mist (unspecified)	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:15247	Australian Mist, Non-spotted	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:15248	Australian Mist, Spotted	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:22658	Bahraini Dilmun Cat ( Delmun Cat )	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:15249	Balinese	skos:exactMatch	VBO:0002330	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:22659	Bambino	skos:exactMatch	VBO:0100037	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:15250	Bengal	skos:exactMatch	VBO:0000143	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:15251	Birman	skos:exactMatch	VBO:0100042	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:15252	Bombay	skos:exactMatch	VBO:0100033	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:15253	Brazilian Long Hair	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:15254	Brazilian Short Hair	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:22407	Breed not listed (Feline)	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:18088	British Black Tipped	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:18090	British Blue	skos:exactMatch	VBO:0002384	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:15255	British Long Hair	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:15256	British Red Spot	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:15257	British Short Hair	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:15258	Burmese	skos:exactMatch	VBO:0000168	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:15259	Burmilla	skos:exactMatch	VBO:0100056	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:15260	Calico	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:15261	California Spangled	skos:exactMatch	VBO:0100059	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:15262	Chantilly (Tiffany)	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:15263	Chartreux	skos:exactMatch	VBO:0100067	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:15264	Chausie	skos:exactMatch	VBO:0100068	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:15265	Chinchilla	skos:exactMatch	VBO:0001241	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:22654	Colourpoint Short Hair	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:15266	Cornish Rex	skos:exactMatch	VBO:0100077	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:15267	Cross Breed	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:15268	Cymric	skos:exactMatch	VBO:0100080	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:15269	Devon Rex	skos:exactMatch	VBO:0100084	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:18747	Domestic cat (hair length unspecified)	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:15270	Domestic Leopard Cat	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:15271	Domestic Long Hair	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:15272	Domestic Medium Hair	skos:exactMatch	VBO:0100265	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:15273	Domestic Short Hair	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:15274	Don Hairless	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:15275	Don Sphynx	skos:exactMatch	VBO:0100085	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:15276	Egyptian Black	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:15277	Egyptian Mau	skos:exactMatch	VBO:0100040	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:22661	European (unspecified)	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:22660	European Long Hair	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:15278	European Short Hair	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:22663	European Tiger Cat	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:18092	Exotic (unspecified)	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:15279	Exotic Long Hair	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:15280	Exotic Short Hair	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:15281	Foreign White	skos:exactMatch	VBO:0100100	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:15282	German Rex	skos:exactMatch	VBO:0100107	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:15283	Havana Brown	skos:exactMatch	VBO:0100108	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:15284	Highland Fold	skos:exactMatch	VBO:0100112	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:15285	Himalayan	skos:exactMatch	VBO:0002087	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:15286	Japanese Bobtail	skos:exactMatch	VBO:0100128	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:15287	Javanese	skos:exactMatch	VBO:0003758	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:15288	Khao Manee	skos:exactMatch	VBO:0100140	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:15289	Korat	skos:exactMatch	VBO:0100143	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:15290	Kurilean Bobtail, Long-Haired	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:15291	Kurilean Bobtail, Short-Haired	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:18094	LaPerm (unspecified)	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:15292	LaPerm, Long-Haired	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:15293	LaPerm, Short-Haired	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:15294	Maine Coon	skos:exactMatch	VBO:0100154	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:15295	Maltese	skos:exactMatch	VBO:0000796	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:18096	Manx (unspecified)	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:15296	Manx, Long-Haired	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:15297	Manx, Short-Haired	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:15298	Manxamese	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:15299	Minskin	skos:exactMatch	VBO:0100162	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:22664	Minuet ( Napoleon )	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:18098	Munchkin (Munchk) (unspecified)	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:15300	Munchkin (Munchk), Long-Haired	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:15301	Munchkin (Munchk), Short-Haired	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:15302	Nebelung	skos:exactMatch	VBO:0100172	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:15303	Neva Masquerade (Colourpoint Siberian Forest Cat)	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:15304	Norwegian Forest	skos:exactMatch	VBO:0100178	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:15305	Ocicat	skos:exactMatch	VBO:0100179	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:15306	Ojos Azules	skos:exactMatch	VBO:0100180	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:15307	Oregon Rex	skos:exactMatch	VBO:0100258	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:18100	Oriental (unspecified)	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:15308	Oriental Long Hair	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:15309	Oriental Short Hair	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:18760	Persian (unspecified)	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:18762	Persian, Blue	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:18763	Persian, Colourpoint	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:18764	Persian, Smoke	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:15311	Persian, Tabby	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:15312	Peterbald	skos:exactMatch	VBO:0100046	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:15313	PixieBob	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:22662	Polydactyl cat ( Hemingway cat )	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:22405	Purebred cross (Feline)	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:15314	Ragamuffin	skos:exactMatch	VBO:0100195	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:15315	Ragdoll	skos:exactMatch	VBO:0100195	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:18759	Rex (unspecified)	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:18749	Russian (unspecified)	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:18751	Russian Black	skos:exactMatch	VBO:0003203	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:18753	Russian Blue	skos:exactMatch	VBO:0100096	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:18755	Russian Tabby	skos:exactMatch	VBO:0100201	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:18757	Russian White	skos:exactMatch	VBO:0007739	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:15318	Savannah	skos:exactMatch	VBO:0002340	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:18102	Scottish Fold (unspecified)	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:15319	Scottish Fold, Long-Haired	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:15320	Scottish Fold, Short-Haired	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:15321	Scottish Wildcat	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:15322	Selkirk Rex	skos:exactMatch	VBO:0100149	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:15323	Serengeti	skos:exactMatch	VBO:0100218	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:15324	Seychellois Long Hair	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:15325	Seychellois Short Hair	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:15326	Siamese	skos:exactMatch	VBO:0001279	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:15327	Siberian	skos:exactMatch	VBO:0001182	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:15328	Siberian Forest Cat	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:15329	Singapura	skos:exactMatch	VBO:0100224	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:15330	Snowshoe	skos:exactMatch	VBO:0100227	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:15331	Sokoke (African Short Hair)	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:7355	Somali (unspecified)	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:7356	Somali Long Hair	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:7353	Somali Short Hair	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:15333	Sphynx	skos:exactMatch	VBO:0100037	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:18104	Thai	skos:exactMatch	VBO:0002023	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:22665	Tiffanie	skos:exactMatch	VBO:0100031	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:15334	Tonkinese	skos:exactMatch	VBO:0100241	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:15335	Toyger	skos:exactMatch	VBO:0100060	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:15336	Turkish Angora	skos:exactMatch	VBO:0100051	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:15337	Turkish Van	skos:exactMatch	VBO:0100250	semapv:ManualMappingCuration	0.95	2025-11-18	
+VeNom:15338	Turkish Vankedisi (Van Kedisi)	skos:closeMatch		semapv:ManualMappingCuration	0.0	2025-11-18	No VBO match found
+VeNom:15339	York Chocolate	skos:exactMatch	VBO:0100257	semapv:ManualMappingCuration	0.95	2025-11-18	
