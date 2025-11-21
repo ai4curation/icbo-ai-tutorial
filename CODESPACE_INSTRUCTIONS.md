@@ -1,5 +1,9 @@
 # ICBO Tutorial
 
+## NOTE
+
+The claude code instance that was used during the tutorial will no longer work out the box, you will need to provide your own key
+
 ## Starting a codespace in GitHub
 
 Go to this repo (https://github.com/ai4curation/icbo-ai-tutorial), click the green "<> Code" button, and select the "Codespaces" tab:
