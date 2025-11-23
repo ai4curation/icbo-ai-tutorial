@@ -270123,6 +270123,7 @@ property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-br
 id: VBO:0100179
 name: Ocicat (Cat)
 synonym: "Ocicat" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/", source="https://www.worldcatcongress.org/wp/cat_breed_comp_oci.php", source="https://fifeweb.org/cats/breeds/", source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://cfa.org/breeds/", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.tica.org/breeds/browse-all-breeds"}
+synonym: "Oci" EXACT [] {source="PMID:100500", source="https://orcid.org/0000-0002-7638-4659"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0100000 {source="https://cfa.org/ocicat/", source="https://en.wikipedia.org/wiki/Ocicat", source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/ocicat/", source="https://www.tica.org/breeds/browse-all-breeds?view=article&id=1504:the-ocicat-breed&catid=48"} ! has foundation stock Abyssinian (Cat)
