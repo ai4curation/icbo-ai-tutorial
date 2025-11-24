@@ -266921,6 +266921,7 @@ property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-br
 id: VBO:0100000
 name: Abyssinian (Cat)
 synonym: "Abyssinian" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/", source="https://fifeweb.org/cats/breeds/", source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://cfa.org/breeds/", source="https://www.worldcatcongress.org/wp/cat_breed_comp_aby.php", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.tica.org/breeds/browse-all-breeds"}
+xref: VeNom:15238 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "AB" xsd:string {source="https://www.tica.org/phocadownload/ab.pdf"}
@@ -266931,6 +266932,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "http://omia.org" xsd:anyURI
 property_value: dcterms:source "https://cfa.org/breeds/" xsd:anyURI
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
@@ -266997,6 +266999,7 @@ property_value: dcterms:source "https://www.worldcatcongress.org/wp/cat_breed_co
 id: VBO:0100004
 name: American Bobtail Longhair (Cat)
 synonym: "American Bobtail Longhair" EXACT most_common_name [] {source="https://fifeweb.org/cats/ems-system/", source="https://wcf.de/en/wcf-ems-code/", source="https://www.worldcatcongress.org/wp/cat_breed_comp_abl.php"}
+xref: VeNom:15239 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "ABL" xsd:string {source="https://wcf.de/en/wcf-ems-code/"}
@@ -267008,6 +267011,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "https://fifeweb.org/cats/ems-system/" xsd:anyURI
 property_value: dcterms:source "https://wcf.de/en/wcf-ems-code/" xsd:anyURI
 property_value: dcterms:source "https://www.worldcatcongress.org/wp/cat_breed_comp_abl.php" xsd:anyURI
@@ -267017,6 +267021,7 @@ property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-br
 id: VBO:0100005
 name: American Bobtail Shorthair (Cat)
 synonym: "American Bobtail Shorthair" EXACT most_common_name [] {source="https://fifeweb.org/cats/ems-system/", source="https://wcf.de/en/wcf-ems-code/", source="https://www.tica.org/breeds/browse-all-breeds", source="https://www.worldcatcongress.org/wp/cat_breed_comp_abs.php"}
+xref: VeNom:15240 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "ABS" xsd:string {source="https://wcf.de/en/wcf-ems-code/", source="https://www.tica.org/phocadownload/abt.pdf"}
@@ -267027,6 +267032,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "https://fifeweb.org/cats/ems-system/" xsd:anyURI
 property_value: dcterms:source "https://wcf.de/en/wcf-ems-code/" xsd:anyURI
 property_value: dcterms:source "https://www.tica.org/breeds/browse-all-breeds" xsd:anyURI
@@ -267052,6 +267058,7 @@ property_value: dcterms:source "https://www.worldcatcongress.org/wp/cat_breed_co
 id: VBO:0100007
 name: American Curl (Cat)
 synonym: "American Curl" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://cfa.org/breeds/", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.tica.org/breeds/browse-all-breeds"}
+xref: VeNom:15241 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "AC" xsd:string {source="https://www.tica.org/phocadownload/ac.pdf"}
@@ -267063,6 +267070,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "https://cfa.org/breeds/" xsd:anyURI
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
 property_value: dcterms:source "https://wcf.de/en/wcf-ems-code/" xsd:anyURI
@@ -267206,18 +267214,21 @@ property_value: dcterms:source "https://www.rareexoticfelineregistry.com/breed-r
 id: VBO:0100017
 name: American Ringtail (Cat)
 synonym: "American Ringtail" EXACT most_common_name [] {source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds"}
+xref: VeNom:15242 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
 
 [Term]
 id: VBO:0100018
 name: American Shorthair (Cat)
 synonym: "American Shorthair" EXACT most_common_name [] {source="https://fifeweb.org/cats/ems-system/", source="https://wcf.de/en/wcf-ems-code/", source="https://www.worldcatcongress.org/wp/cat_breed_comp_ams.php", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://cfa.org/breeds/", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.tica.org/breeds/browse-all-breeds"}
+xref: VeNom:15243 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "AMS non" xsd:string {source="https://fifeweb.org/cats/ems-system/"}
@@ -267230,6 +267241,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "http://omia.org" xsd:anyURI
 property_value: dcterms:source "https://cfa.org/breeds/" xsd:anyURI
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
@@ -267272,6 +267284,7 @@ property_value: dcterms:source "https://www.rareexoticfelineregistry.com/breed-r
 id: VBO:0100021
 name: American Wirehair (Cat)
 synonym: "American Wirehair" EXACT most_common_name [] {source="https://fifeweb.org/cats/ems-system/", source="https://wcf.de/en/wcf-ems-code/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://cfa.org/breeds/", source="https://www.worldcatcongress.org/wp/cat_breed_comp_amw.php", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.tica.org/breeds/browse-all-breeds"}
+xref: VeNom:15244 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "AMW non" xsd:string {source="https://fifeweb.org/cats/ems-system/"}
@@ -267284,6 +267297,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "https://cfa.org/breeds/" xsd:anyURI
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
 property_value: dcterms:source "https://fifeweb.org/cats/ems-system/" xsd:anyURI
@@ -267297,6 +267311,7 @@ property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-br
 id: VBO:0100022
 name: Anatoli (Cat)
 synonym: "Anatoli" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/", source="https://www.worldcatcongress.org/wp/cat_breed_comp_ana.php"}
+xref: VeNom:15245 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "ANA" xsd:string {source="https://wcf.de/en/wcf-ems-code/"}
@@ -267306,6 +267321,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "https://wcf.de/en/wcf-ems-code/" xsd:anyURI
 property_value: dcterms:source "https://www.worldcatcongress.org/wp/cat_breed_comp_ana.php" xsd:anyURI
 
@@ -267375,6 +267391,7 @@ property_value: dcterms:source "https://www.worldcatcongress.org/wp/cat_breed_co
 id: VBO:0100027
 name: Arabian Mau (Cat)
 synonym: "Arabian Mau" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/", source="https://www.worldcatcongress.org/wp/cat_breed_comp_arm.php", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds"}
+xref: VeNom:22656 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "ARM" xsd:string {source="https://wcf.de/en/wcf-ems-code/"}
@@ -267384,6 +267401,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
 property_value: dcterms:source "https://wcf.de/en/wcf-ems-code/" xsd:anyURI
 property_value: dcterms:source "https://www.worldcatcongress.org/wp/cat_breed_comp_arm.php" xsd:anyURI
@@ -267393,6 +267411,7 @@ id: VBO:0100028
 name: Asian (Cat)
 synonym: "Asian" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/", source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://www.worldcatcongress.org/wp/cat_breed_comp_asn.php", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds"}
 synonym: "Malayan" EXACT [] {source="https://en.wikipedia.org/wiki/Asian_cat"}
+xref: VeNom:18084 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "ASH/ALH" xsd:string {source="https://www.gccfcats.org/wp-content/uploads/2024/04/SOP.final_.April2024.pdf"}
@@ -267405,6 +267424,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
 property_value: dcterms:source "https://wcf.de/en/wcf-ems-code/" xsd:anyURI
 property_value: dcterms:source "https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/" xsd:anyURI
@@ -267491,6 +267511,8 @@ property_value: dcterms:source "https://www.worldcatcongress.org/wp/cat_breed_co
 id: VBO:0100034
 name: Australian Mist (Cat)
 synonym: "Australian Mist" EXACT most_common_name [] {source="https://fifeweb.org/cats/ems-system/", source="https://wcf.de/en/wcf-ems-code/", source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://www.worldcatcongress.org/wp/cat_breed_comp_aum.php", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.tica.org/breeds/browse-all-breeds"}
+xref: VeNom:15247 {source="https://venomcoding.org/venom-codes/"}
+xref: VeNom:15248 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0100000 {source="https://en.wikipedia.org/wiki/Australian_Mist", source="https://tica.org/breeds/browse-all-breeds?view=article&id=1816", source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/australian-mist/"} ! has foundation stock Abyssinian (Cat)
@@ -267505,6 +267527,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
 property_value: dcterms:source "https://fifeweb.org/cats/ems-system/" xsd:anyURI
 property_value: dcterms:source "https://wcf.de/en/wcf-ems-code/" xsd:anyURI
@@ -267541,6 +267564,7 @@ id: VBO:0100036
 name: Balinese (Cat)
 synonym: "Balinese" EXACT most_common_name [] {source="https://fifeweb.org/cats/breeds/", source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://cfa.org/breeds/", source="https://www.worldcatcongress.org/wp/cat_breed_comp_bal.php", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.tica.org/breeds/browse-all-breeds"}
 synonym: "Long-haired Siamese|Thai Siamese" EXACT [] {source="https://en.wikipedia.org/wiki/Balinese_cat"}
+xref: VeNom:15249 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0100221 {source="https://cfa.org/balinese/", source="https://en.wikipedia.org/wiki/Balinese_cat", source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/balinese/", source="https://www.tica.org/breeds/browse-all-breeds?view=article&id=1264:the-balinese-breed&catid=48"} ! has foundation stock Siamese (Cat)
@@ -267552,6 +267576,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "https://cfa.org/breeds/" xsd:anyURI
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
 property_value: dcterms:source "https://fifeweb.org/cats/breeds/" xsd:anyURI
@@ -267565,6 +267590,7 @@ property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-br
 id: VBO:0100037
 name: Bambino (Cat)
 synonym: "Bambino" EXACT most_common_name [] {source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds"}
+xref: VeNom:22659 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0100169 {source="http://www.rareexoticfelineregistry.com/bambino/", source="https://en.wikipedia.org/wiki/Bambino_cat"} ! has foundation stock Munchkin (Cat)
@@ -267576,6 +267602,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
 property_value: dcterms:source "https://www.rareexoticfelineregistry.com/breed-recognition/" xsd:anyURI
 
@@ -267614,6 +267641,7 @@ property_value: dcterms:source "https://www.rareexoticfelineregistry.com/breed-r
 id: VBO:0100040
 name: Bengal (Cat)
 synonym: "Bengal" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/", source="https://fifeweb.org/cats/breeds/", source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://cfa.org/breeds/", source="https://www.worldcatcongress.org/wp/cat_breed_comp_ben.php", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.tica.org/breeds/browse-all-breeds"}
+xref: VeNom:15250 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0100000 {source="https://en.wikipedia.org/wiki/Bengal_cat", source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/bengal/"} ! has foundation stock Abyssinian (Cat)
@@ -267629,6 +267657,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "http://omia.org" xsd:anyURI
 property_value: dcterms:source "https://cfa.org/breeds/" xsd:anyURI
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
@@ -267668,6 +267697,7 @@ id: VBO:0100042
 name: Birman (Cat)
 synonym: "Birman" EXACT most_common_name [] {source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://cfa.org/breeds/", source="https://www.worldcatcongress.org/wp/cat_breed_comp_bir.php", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.tica.org/breeds/browse-all-breeds"}
 synonym: "Sacred Cat of Burma" EXACT [] {source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/birman/"}
+xref: VeNom:15251 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "BI" xsd:string {source="https://www.tica.org/phocadownload/bi.pdf"}
@@ -267678,6 +267708,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "http://omia.org" xsd:anyURI
 property_value: dcterms:source "https://cfa.org/breeds/" xsd:anyURI
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
@@ -267721,6 +267752,7 @@ property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-br
 id: VBO:0100045
 name: Bombay (Cat)
 synonym: "Bombay" EXACT most_common_name [] {source="https://fifeweb.org/cats/ems-system/", source="https://wcf.de/en/wcf-ems-code/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://cfa.org/breeds/", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.tica.org/breeds/browse-all-breeds", source="https://www.worldcatcongress.org/wp/cat_breed_comp_bom.php"}
+xref: VeNom:15252 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0100018 {source="https://cfa.org/bombay/", source="https://en.wikipedia.org/wiki/Bombay_cat", source="https://www.tica.org/breeds/browse-all-breeds?view=article&id=2079"} ! has foundation stock American Shorthair (Cat)
@@ -267734,6 +267766,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "http://omia.org" xsd:anyURI
 property_value: dcterms:source "https://cfa.org/breeds/" xsd:anyURI
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
@@ -267765,6 +267798,7 @@ id: VBO:0100047
 name: Brazilian Shorthair (Cat)
 synonym: "Brasilian Shorthair" EXACT [] {source="https://wcf.de/pdf-en/breed/BRA_en_2010-01-01.pdf"}
 synonym: "Brazilian Shorthair" EXACT most_common_name [] {source="https://www.worldcatcongress.org/wp/cat_breed_comp_bzsh.php", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://wcf.de/pdf-en/breed/BRA_en_2010-01-01.pdf"}
+xref: VeNom:15254 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "BSH" xsd:string {source="https://wcf.de/en/wcf-ems-code/"}
@@ -267775,6 +267809,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
 property_value: dcterms:source "https://wcf.de/pdf-en/breed/BRA_en_2010-01-01.pdf" xsd:anyURI
 property_value: dcterms:source "https://www.rareexoticfelineregistry.com/breed-recognition/" xsd:anyURI
@@ -267827,6 +267862,7 @@ property_value: dcterms:source "https://www.rareexoticfelineregistry.com/breed-r
 id: VBO:0100051
 name: British Longhair (Cat)
 synonym: "British Longhair" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/", source="https://fifeweb.org/cats/breeds/", source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://www.worldcatcongress.org/wp/cat_breed_comp_brlh.php", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.tica.org/breeds/browse-all-breeds"}
+xref: VeNom:15255 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0100052 {source="https://en.wikipedia.org/wiki/British_Longhair"} ! has foundation stock British Shorthair (Cat)
@@ -267840,6 +267876,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
 property_value: dcterms:source "https://fifeweb.org/cats/breeds/" xsd:anyURI
 property_value: dcterms:source "https://wcf.de/en/wcf-ems-code/" xsd:anyURI
@@ -267853,6 +267890,7 @@ property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-br
 id: VBO:0100052
 name: British Shorthair (Cat)
 synonym: "British Shorthair" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/", source="https://fifeweb.org/cats/breeds/", source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://cfa.org/breeds/", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.worldcatcongress.org/wp/cat_breed_comp_brsh.php", source="https://www.tica.org/breeds/browse-all-breeds"}
+xref: VeNom:15257 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "BRI" xsd:string {source="https://wcf.de/en/wcf-ems-code/"}
@@ -267864,6 +267902,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "http://omia.org" xsd:anyURI
 property_value: dcterms:source "https://cfa.org/breeds/" xsd:anyURI
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
@@ -267879,6 +267918,7 @@ property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-br
 id: VBO:0100053
 name: Burmese (Cat)
 synonym: "Burmese" EXACT most_common_name [] {source="https://fifeweb.org/cats/breeds/", source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://cfa.org/breeds/", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.worldcatcongress.org/wp/cat_breed_comp_bur.php", source="https://www.tica.org/breeds/browse-all-breeds"}
+xref: VeNom:15258 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0100221 {source="https://cfa.org/burmese/", source="https://www.tica.org/breeds/browse-all-breeds?view=article&id=1877"} ! has foundation stock Siamese (Cat)
@@ -267890,6 +267930,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "http://omia.org" xsd:anyURI
 property_value: dcterms:source "https://cfa.org/breeds/" xsd:anyURI
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
@@ -267934,6 +267975,7 @@ property_value: dcterms:source "https://wcf.de/en/wcf-ems-code/" xsd:anyURI
 id: VBO:0100056
 name: Burmilla (Cat)
 synonym: "Burmilla" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/", source="https://fifeweb.org/cats/breeds/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://cfa.org/breeds/", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.tica.org/breeds/browse-all-breeds", source="https://www.worldcatcongress.org/wp/cat_breed_comp_bml.php"}
+xref: VeNom:15259 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0100053 {source="https://cfa.org/burmilla/", source="https://en.wikipedia.org/wiki/Burmilla", source="https://www.tica.org/breeds/browse-all-breeds?view=article&id=2080", source="https://www.tica.org/phocadownload/bm.pdf"} ! has foundation stock Burmese (Cat)
@@ -267949,6 +267991,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "http://omia.org" xsd:anyURI
 property_value: dcterms:source "https://cfa.org/breeds/" xsd:anyURI
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
@@ -267994,6 +268037,7 @@ property_value: dcterms:source "https://www.worldcatcongress.org/wp/cat_breed_co
 id: VBO:0100059
 name: California Spangled (Cat)
 synonym: "California Spangled" EXACT most_common_name [] {source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds"}
+xref: VeNom:15261 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0100000 {source="https://en.wikipedia.org/wiki/California_Spangled"} ! has foundation stock Abyssinian (Cat)
@@ -268005,6 +268049,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
 property_value: dcterms:source "https://www.rareexoticfelineregistry.com/breed-recognition/" xsd:anyURI
 
@@ -268100,18 +268145,21 @@ name: Chantilly-Tiffany (Cat)
 synonym: "Chantilly" EXACT [] {source="https://en.wikipedia.org/wiki/Chantilly-Tiffany"}
 synonym: "Chantilly-Tiffany" EXACT most_common_name [] {source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds"}
 synonym: "Foreign Longhair" EXACT [] {source="https://en.wikipedia.org/wiki/Chantilly-Tiffany"}
+xref: VeNom:15262 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
 
 [Term]
 id: VBO:0100067
 name: Chartreux (Cat)
 synonym: "Chartreux" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/", source="https://fifeweb.org/cats/breeds/", source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://cfa.org/breeds/", source="https://www.worldcatcongress.org/wp/cat_breed_comp_cha.php", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.tica.org/breeds/browse-all-breeds"}
+xref: VeNom:15263 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "CHA" xsd:string {source="https://fifeweb.org/cats/breeds/", source="https://wcf.de/en/wcf-ems-code/", source="https://www.gccfcats.org/wp-content/uploads/2024/04/SOP.final_.April2024.pdf"}
@@ -268123,6 +268171,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "http://omia.org" xsd:anyURI
 property_value: dcterms:source "https://cfa.org/breeds/" xsd:anyURI
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
@@ -268138,6 +268187,7 @@ property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-br
 id: VBO:0100068
 name: Chausie (Cat)
 synonym: "Chausie" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.tica.org/breeds/browse-all-breeds", source="https://www.worldcatcongress.org/wp/cat_breed_comp_chu.php"}
+xref: VeNom:15264 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:2576912 ! Felis chaus x Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0100133 {source="http://www.rareexoticfelineregistry.com/chausie/", source="https://en.wikipedia.org/wiki/Chausie", source="https://www.tica.org/breeds/browse-all-breeds?view=article&id=1815"} ! has foundation stock Jungle Cat (Cat)
@@ -268150,6 +268200,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
 property_value: dcterms:source "https://wcf.de/en/wcf-ems-code/" xsd:anyURI
 property_value: dcterms:source "https://www.rareexoticfelineregistry.com/breed-recognition/" xsd:anyURI
@@ -268237,6 +268288,7 @@ name: Colorpoint Shorthair (Cat)
 synonym: "Color Point Shorthair" EXACT [] {source="https://www.rareexoticfelineregistry.com/breed-recognition/"}
 synonym: "Colorpoint Shorthair" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://www.worldcatcongress.org/wp/cat_breed_comp_cps.php", source="https://cfa.org/breeds/", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds"}
 synonym: "Colourpoint Shorthair" EXACT [] {source="https://wcf.de/en/wcf-ems-code/", source="https://www.worldcatcongress.org/wp/cat_breed_comp_cps.php"}
+xref: VeNom:22654 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0100000 {source="https://en.wikipedia.org/wiki/Colorpoint_Shorthair"} ! has foundation stock Abyssinian (Cat)
@@ -268251,6 +268303,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "https://cfa.org/breeds/" xsd:anyURI
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
 property_value: dcterms:source "https://wcf.de/en/wcf-ems-code/" xsd:anyURI
@@ -268292,6 +268345,7 @@ property_value: dcterms:source "https://www.rareexoticfelineregistry.com/breed-r
 id: VBO:0100077
 name: Cornish Rex (Cat)
 synonym: "Cornish Rex" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/", source="https://fifeweb.org/cats/breeds/", source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://cfa.org/breeds/", source="https://www.worldcatcongress.org/wp/cat_breed_comp_crx.php", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.tica.org/breeds/browse-all-breeds"}
+xref: VeNom:15266 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "CR" xsd:string {source="https://www.tica.org/phocadownload/cr.pdf"}
@@ -268302,6 +268356,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "http://omia.org" xsd:anyURI
 property_value: dcterms:source "https://cfa.org/breeds/" xsd:anyURI
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
@@ -268350,6 +268405,7 @@ synonym: "Cymric" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-c
 synonym: "Long-haired Manx" EXACT [] {source="https://en.wikipedia.org/wiki/Cymric_cat"}
 synonym: "Longhair Manx" EXACT [] {source="https://en.wikipedia.org/wiki/Cymric_cat"}
 synonym: "Manx Longhair" EXACT [] {source="https://en.wikipedia.org/wiki/Cymric_cat"}
+xref: VeNom:15268 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0100156 {source="https://en.wikipedia.org/wiki/Cymric_cat"} ! has foundation stock Manx (Cat)
@@ -268361,6 +268417,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
 property_value: dcterms:source "https://fifeweb.org/cats/breeds/" xsd:anyURI
 property_value: dcterms:source "https://wcf.de/en/wcf-ems-code/" xsd:anyURI
@@ -268417,6 +268474,7 @@ property_value: dcterms:source "https://wcf.de/en/wcf-ems-code/" xsd:anyURI
 id: VBO:0100084
 name: Devon Rex (Cat)
 synonym: "Devon Rex" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/", source="https://fifeweb.org/cats/breeds/", source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://cfa.org/breeds/", source="https://www.worldcatcongress.org/wp/cat_breed_comp_drx.php", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.tica.org/breeds/browse-all-breeds"}
+xref: VeNom:15269 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "DR" xsd:string {source="https://www.tica.org/phocadownload/dr.pdf"}
@@ -268427,6 +268485,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "http://omia.org" xsd:anyURI
 property_value: dcterms:source "https://cfa.org/breeds/" xsd:anyURI
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
@@ -268443,6 +268502,7 @@ id: VBO:0100085
 name: Don Sphynx (Cat)
 synonym: "Don Sphynx" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/", source="https://fifeweb.org/cats/breeds/", source="https://www.worldcatcongress.org/wp/cat_breed_comp_dsp.php"}
 synonym: "Donskoy" EXACT [] {source="https://wcf.de/en/wcf-ems-code/"}
+xref: VeNom:15275 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "DSP" xsd:string {source="https://fifeweb.org/cats/breeds/"}
@@ -268453,6 +268513,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "http://omia.org" xsd:anyURI
 property_value: dcterms:source "https://fifeweb.org/cats/breeds/" xsd:anyURI
 property_value: dcterms:source "https://wcf.de/en/wcf-ems-code/" xsd:anyURI
@@ -268530,6 +268591,7 @@ property_value: dcterms:source "https://www.rareexoticfelineregistry.com/breed-r
 id: VBO:0100090
 name: Egyptian Mau (Cat)
 synonym: "Egyptian Mau" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/", source="https://fifeweb.org/cats/breeds/", source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://www.worldcatcongress.org/wp/cat_breed_comp_emau.php", source="https://cfa.org/breeds/", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.tica.org/breeds/browse-all-breeds"}
+xref: VeNom:15277 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "EGM" xsd:string {source="https://www.rareexoticfelineregistry.com/breed-recognition/"}
@@ -268542,6 +268604,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "https://cfa.org/breeds/" xsd:anyURI
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
 property_value: dcterms:source "https://fifeweb.org/cats/breeds/" xsd:anyURI
@@ -268605,6 +268668,7 @@ id: VBO:0100094
 name: European Shorthair (Cat)
 synonym: "European" EXACT [] {source="https://en.wikipedia.org/wiki/European_Shorthair"}
 synonym: "European Shorthair" EXACT most_common_name [] {source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.worldcatcongress.org/wp/cat_breed_comp_eush.php"}
+xref: VeNom:15278 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: dcterms:contributor https://orcid.org/0000-0002-1628-7726
@@ -268612,6 +268676,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
 property_value: dcterms:source "https://www.worldcatcongress.org/wp/cat_breed_comp_eush.php" xsd:anyURI
 
@@ -268636,6 +268701,7 @@ property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-br
 id: VBO:0100096
 name: Exotic Shorthair (Cat)
 synonym: "Exotic Shorthair" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/", source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://www.worldcatcongress.org/wp/cat_breed_comp_exo.php", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.tica.org/breeds/browse-all-breeds"}
+xref: VeNom:15280 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0100018 {source="https://en.wikipedia.org/wiki/Exotic_Shorthair", source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/exotic-shorthair/", source="https://www.tica.org/breeds/browse-all-breeds?view=article&id=841:exotic-shorthair-breed&catid=79"} ! has foundation stock American Shorthair (Cat)
@@ -268651,6 +268717,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "http://omia.org" xsd:anyURI
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
 property_value: dcterms:source "https://wcf.de/en/wcf-ems-code/" xsd:anyURI
@@ -268712,6 +268779,7 @@ property_value: dcterms:source "https://www.rareexoticfelineregistry.com/breed-r
 id: VBO:0100100
 name: Foreign White (Cat)
 synonym: "Foreign White" EXACT most_common_name [] {source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/"}
+xref: VeNom:15281 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "SIA w67" xsd:string {source="https://www.gccfcats.org/wp-content/uploads/2024/04/SOP.final_.April2024.pdf"}
@@ -268720,6 +268788,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/" xsd:anyURI
 property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/200" xsd:anyURI
 
@@ -268814,6 +268883,7 @@ property_value: dcterms:source "https://www.rareexoticfelineregistry.com/breed-r
 id: VBO:0100107
 name: German Rex (Cat)
 synonym: "German Rex" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/", source="https://fifeweb.org/cats/breeds/", source="https://www.worldcatcongress.org/wp/cat_breed_comp_grx.php", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds"}
+xref: VeNom:15282 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "GRX" xsd:string {source="https://fifeweb.org/cats/breeds/", source="https://wcf.de/en/wcf-ems-code/"}
@@ -268823,6 +268893,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "http://omia.org" xsd:anyURI
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
 property_value: dcterms:source "https://fifeweb.org/cats/breeds/" xsd:anyURI
@@ -268858,6 +268929,7 @@ id: VBO:0100109
 name: Havana Brown (Cat)
 synonym: "Havana" EXACT [] {source="https://en.wikipedia.org/wiki/Havana_Brown"}
 synonym: "Havana Brown" EXACT most_common_name [] {source="https://cfa.org/breeds/", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.worldcatcongress.org/wp/cat_breed_comp_hbrn.php"}
+xref: VeNom:15283 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0100221 {source="https://cfa.org/havana-brown/", source="https://en.wikipedia.org/wiki/Havana_Brown"} ! has foundation stock Siamese (Cat)
@@ -268866,6 +268938,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "https://cfa.org/breeds/" xsd:anyURI
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
 property_value: dcterms:source "https://www.worldcatcongress.org/wp/cat_breed_comp_hbrn.php" xsd:anyURI
@@ -268903,6 +268976,7 @@ id: VBO:0100112
 name: Highland Fold (Cat)
 synonym: "Highland Fold" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/", source="https://www.rareexoticfelineregistry.com/breed-recognition/"}
 synonym: "Scottish Fold Longhair" EXACT [] {source="https://wcf.de/en/wcf-ems-code/"}
+xref: VeNom:15284 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "HFD" xsd:string {source="https://www.rareexoticfelineregistry.com/breed-recognition/"}
@@ -268912,6 +268986,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "http://omia.org" xsd:anyURI
 property_value: dcterms:source "https://wcf.de/en/wcf-ems-code/" xsd:anyURI
 property_value: dcterms:source "https://www.rareexoticfelineregistry.com/breed-recognition/" xsd:anyURI
@@ -268989,6 +269064,7 @@ name: Himalayan (Cat)
 synonym: "Colourpoint Persian" EXACT [] {source="https://en.wikipedia.org/wiki/Himalayan_cat"}
 synonym: "Himalayan" EXACT most_common_name [] {source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.tica.org/breeds/browse-all-breeds"}
 synonym: "Himalayan Persian" EXACT [] {source="https://en.wikipedia.org/wiki/Himalayan_cat"}
+xref: VeNom:15285 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0100188 {source="https://en.wikipedia.org/wiki/Himalayan_cat", source="https://www.tica.org/breeds/browse-all-breeds?view=article&id=1444:the-himalayan-breed&catid=48"} ! has foundation stock Persian (Cat)
@@ -269000,6 +269076,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "http://omia.org" xsd:anyURI
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
 property_value: dcterms:source "https://www.rareexoticfelineregistry.com/breed-recognition/" xsd:anyURI
@@ -269014,6 +269091,7 @@ synonym: "Domestic Longhair" EXACT most_common_name [] {source="https://fifeweb.
 synonym: "House Cat Longhair" EXACT [] {source="https://fifeweb.org/cats/breeds/"}
 synonym: "Household Pet Longhair" RELATED [] {source="https://wcf.de/en/wcf-ems-code/"}
 synonym: "Non Recognized Longhair" RELATED [] {source="https://fifeweb.org/cats/ems-system/", source="https://wcf.de/en/wcf-ems-code/"}
+xref: VeNom:15271 {source="https://venomcoding.org/venom-codes/"}
 is_a: VBO:0100262 {source="https://orcid.org/0000-0002-5002-8648"} ! Mixed Breed (Cat)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "DLH" xsd:string {source="https://en.wikipedia.org/wiki/Moggy", source="https://orcid.org/0000-0002-1628-7726"}
@@ -269023,6 +269101,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-1628-7726
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "https://en.wikipedia.org/wiki/Moggy" xsd:anyURI
 property_value: dcterms:source "https://fifeweb.org/cats/breeds/" xsd:anyURI
 property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/200" xsd:anyURI
@@ -269037,6 +269116,7 @@ synonym: "Domestic Shorthair" EXACT most_common_name [] {source="https://fifeweb
 synonym: "House Cat Shorthair" EXACT [] {source="https://fifeweb.org/cats/breeds/"}
 synonym: "Household Pet Shorthair" RELATED [] {source="https://wcf.de/en/wcf-ems-code/"}
 synonym: "Non Recognized Shorthair" RELATED [] {source="https://fifeweb.org/cats/ems-system/", source="https://wcf.de/en/wcf-ems-code/"}
+xref: VeNom:15273 {source="https://venomcoding.org/venom-codes/"}
 is_a: VBO:0100262 {source="https://orcid.org/0000-0002-5002-8648"} ! Mixed Breed (Cat)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "DSH" xsd:string {source="https://en.wikipedia.org/wiki/Moggy", source="https://orcid.org/0000-0002-1628-7726"}
@@ -269046,6 +269126,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-1628-7726
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "https://en.wikipedia.org/wiki/Moggy" xsd:anyURI
 property_value: dcterms:source "https://fifeweb.org/cats/breeds/" xsd:anyURI
 property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/200" xsd:anyURI
@@ -269180,6 +269261,7 @@ property_value: dcterms:source "https://www.rareexoticfelineregistry.com/breed-r
 id: VBO:0100128
 name: Japanese Bobtail (Cat)
 synonym: "Japanese Bobtail" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://cfa.org/breeds/", source="https://www.worldcatcongress.org/wp/cat_breed_comp_jbt.php", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.tica.org/breeds/browse-all-breeds"}
+xref: VeNom:15286 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "JB" xsd:string {source="https://www.tica.org/phocadownload/jb.pdf"}
@@ -269190,6 +269272,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "http://omia.org" xsd:anyURI
 property_value: dcterms:source "https://cfa.org/breeds/" xsd:anyURI
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
@@ -269241,6 +269324,7 @@ name: Javanese (Cat)
 synonym: "Colorpoint Longhair" EXACT [] {source="https://en.wikipedia.org/wiki/Javanese_cat"}
 synonym: "Colourpoint Longhair" EXACT [] {source="https://en.wikipedia.org/wiki/Javanese_cat"}
 synonym: "Javanese" EXACT most_common_name [] {source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds"}
+xref: VeNom:15287 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0100036 {source="https://en.wikipedia.org/wiki/Javanese_cat"} ! has foundation stock Balinese (Cat)
@@ -269252,6 +269336,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
 property_value: dcterms:source "https://www.rareexoticfelineregistry.com/breed-recognition/" xsd:anyURI
 
@@ -269382,6 +269467,7 @@ name: Khao Manee (Cat)
 synonym: "Khao Manee" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://cfa.org/breeds/", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds"}
 synonym: "Khao Plort" EXACT [] {source="https://en.wikipedia.org/wiki/Khao_Manee"}
 synonym: "Khao-Manee" EXACT [] {source="PMID:39085978"}
+xref: VeNom:15288 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "KAM" xsd:string {source="https://wcf.de/en/wcf-ems-code/"}
@@ -269393,6 +269479,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "https://cfa.org/breeds/" xsd:anyURI
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
 property_value: dcterms:source "https://wcf.de/en/wcf-ems-code/" xsd:anyURI
@@ -269436,6 +269523,7 @@ property_value: dcterms:source "https://www.rareexoticfelineregistry.com/breed-r
 id: VBO:0100143
 name: Korat (Cat)
 synonym: "Korat" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/", source="https://fifeweb.org/cats/breeds/", source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://cfa.org/breeds/", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.worldcatcongress.org/wp/cat_breed_comp_kor.php", source="https://www.tica.org/breeds/browse-all-breeds"}
+xref: VeNom:15289 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "KOR" xsd:string {source="https://fifeweb.org/cats/breeds/", source="https://wcf.de/en/wcf-ems-code/", source="https://www.gccfcats.org/wp-content/uploads/2024/04/SOP.final_.April2024.pdf", source="https://www.rareexoticfelineregistry.com/breed-recognition/"}
@@ -269446,6 +269534,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "http://omia.org" xsd:anyURI
 property_value: dcterms:source "https://cfa.org/breeds/" xsd:anyURI
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
@@ -269513,6 +269602,7 @@ id: VBO:0100147
 name: Kurilian Bobtail Longhair (Cat)
 synonym: "Kurilean Bobtail Longhair" EXACT [] {source="https://fifeweb.org/cats/breeds/"}
 synonym: "Kurilian Bobtail Longhair" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/", source="https://www.worldcatcongress.org/wp/cat_breed_comp_kbl.php", source="https://fifeweb.org/cats/breeds/", source="https://www.tica.org/breeds/browse-all-breeds"}
+xref: VeNom:15290 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "KBL" xsd:string {source="https://fifeweb.org/cats/breeds/", source="https://wcf.de/en/wcf-ems-code/", source="https://www.tica.org/phocadownload/kb.pdf"}
@@ -269522,6 +269612,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "https://fifeweb.org/cats/breeds/" xsd:anyURI
 property_value: dcterms:source "https://wcf.de/en/wcf-ems-code/" xsd:anyURI
 property_value: dcterms:source "https://www.tica.org/breeds/browse-all-breeds" xsd:anyURI
@@ -269533,6 +269624,7 @@ id: VBO:0100148
 name: Kurilian Bobtail Shorthair (Cat)
 synonym: "Kurilean Bobtail Shorthair" EXACT [] {source="https://fifeweb.org/cats/breeds/"}
 synonym: "Kurilian Bobtail Shorthair" EXACT most_common_name [] {source="https://fifeweb.org/cats/breeds/", source="https://www.worldcatcongress.org/wp/cat_breed_comp_kbs.php"}
+xref: VeNom:15291 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "KBS" xsd:string {source="https://fifeweb.org/cats/breeds/"}
@@ -269541,6 +269633,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "https://fifeweb.org/cats/breeds/" xsd:anyURI
 property_value: dcterms:source "https://www.worldcatcongress.org/wp/cat_breed_comp_kbs.php" xsd:anyURI
 property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/200" xsd:anyURI
@@ -269595,6 +269688,7 @@ id: VBO:0100151
 name: LaPerm Longhair (Cat)
 synonym: "La Perm Longhair" EXACT [] {source="https://www.worldcatcongress.org/wp/cat_breed_comp_la_perl.php"}
 synonym: "LaPerm Longhair" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/", source="https://fifeweb.org/cats/breeds/", source="https://www.worldcatcongress.org/wp/cat_breed_comp_laperl.php"}
+xref: VeNom:15292 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "LPL" xsd:string {source="https://fifeweb.org/cats/breeds/", source="https://wcf.de/en/wcf-ems-code/"}
@@ -269604,6 +269698,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "https://fifeweb.org/cats/breeds/" xsd:anyURI
 property_value: dcterms:source "https://wcf.de/en/wcf-ems-code/" xsd:anyURI
 property_value: dcterms:source "https://www.worldcatcongress.org/wp/cat_breed_comp_laperl.php" xsd:anyURI
@@ -269614,6 +269709,7 @@ id: VBO:0100152
 name: LaPerm Shorthair (Cat)
 synonym: "La Perm Shorthair" EXACT [] {source="https://www.worldcatcongress.org/wp/cat_breed_comp_la_pers.php"}
 synonym: "LaPerm Shorthair" EXACT most_common_name [] {source="https://www.worldcatcongress.org/wp/cat_breed_comp_lapers.php", source="https://fifeweb.org/cats/breeds/", source="https://www.tica.org/breeds/browse-all-breeds"}
+xref: VeNom:15293 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "LPS" xsd:string {source="https://fifeweb.org/cats/breeds/", source="https://www.tica.org/phocadownload/lp.pdf"}
@@ -269622,6 +269718,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "https://fifeweb.org/cats/breeds/" xsd:anyURI
 property_value: dcterms:source "https://www.tica.org/breeds/browse-all-breeds" xsd:anyURI
 property_value: dcterms:source "https://www.worldcatcongress.org/wp/cat_breed_comp_lapers.php" xsd:anyURI
@@ -269658,6 +269755,7 @@ id: VBO:0100154
 name: Maine Coon (Cat)
 synonym: "Maine Coon" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/", source="https://fifeweb.org/cats/breeds/", source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://cfa.org/breeds/", source="https://www.worldcatcongress.org/wp/cat_breed_comp_mco.php", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.tica.org/breeds/browse-all-breeds"}
 synonym: "Maine Coon Cat" EXACT [] {source="https://cfa.org/breeds/"}
+xref: VeNom:15294 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "MC" xsd:string {source="https://www.tica.org/phocadownload/mc.pdf"}
@@ -269669,6 +269767,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "http://omia.org" xsd:anyURI
 property_value: dcterms:source "https://cfa.org/breeds/" xsd:anyURI
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
@@ -269728,24 +269827,28 @@ property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-br
 id: VBO:0100157
 name: Manx Longhair (Cat)
 synonym: "Manx Longhair" EXACT most_common_name [] {source="https://www.worldcatcongress.org/wp/cat_breed_comp_mnxl.php"}
+xref: VeNom:15296 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "https://www.worldcatcongress.org/wp/cat_breed_comp_mnxl.php" xsd:anyURI
 
 [Term]
 id: VBO:0100158
 name: Manx Shorthair (Cat)
 synonym: "Manx Shorthair" EXACT most_common_name [] {source="https://www.worldcatcongress.org/wp/cat_breed_comp_mnxs.php"}
+xref: VeNom:15297 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "https://www.worldcatcongress.org/wp/cat_breed_comp_mnxs.php" xsd:anyURI
 
 [Term]
@@ -269801,6 +269904,7 @@ property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-br
 id: VBO:0100162
 name: Minskin (Cat)
 synonym: "Minskin" EXACT most_common_name [] {source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.worldcatcongress.org/wp/cat_breed_comp_min.php"}
+xref: VeNom:15299 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0100053 {source="https://en.wikipedia.org/wiki/Minskin"} ! has foundation stock Burmese (Cat)
@@ -269813,6 +269917,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
 property_value: dcterms:source "https://www.rareexoticfelineregistry.com/breed-recognition/" xsd:anyURI
 property_value: dcterms:source "https://www.worldcatcongress.org/wp/cat_breed_comp_min.php" xsd:anyURI
@@ -269944,6 +270049,7 @@ property_value: dcterms:source "https://www.worldcatcongress.org/wp/cat_breed_co
 id: VBO:0100170
 name: Munchkin Longhair (Cat)
 synonym: "Munchkin Longhair" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/", source="https://www.worldcatcongress.org/wp/cat_breed_comp_mul.php", source="https://www.tica.org/breeds/browse-all-breeds"}
+xref: VeNom:15300 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "MKL" xsd:string {source="https://www.tica.org/phocadownload/mk.pdf"}
@@ -269954,6 +270060,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "https://wcf.de/en/wcf-ems-code/" xsd:anyURI
 property_value: dcterms:source "https://www.tica.org/breeds/browse-all-breeds" xsd:anyURI
 property_value: dcterms:source "https://www.worldcatcongress.org/wp/cat_breed_comp_mul.php" xsd:anyURI
@@ -269963,6 +270070,7 @@ id: VBO:0100171
 name: Napoleon (Cat)
 synonym: "Minuet" EXACT [] {source="http://www.rareexoticfelineregistry.com/napoleon/"}
 synonym: "Napoleon" EXACT most_common_name [] {source="https://www.rareexoticfelineregistry.com/breed-recognition/"}
+xref: VeNom:22664 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0100096 {source="http://www.rareexoticfelineregistry.com/napoleon/"} ! has foundation stock Exotic Shorthair (Cat)
@@ -269975,6 +270083,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "https://www.rareexoticfelineregistry.com/breed-recognition/" xsd:anyURI
 
 [Term]
@@ -269983,6 +270092,7 @@ name: Nebelung (Cat)
 synonym: "Longhaired Russian Blue" EXACT [] {source="https://en.wikipedia.org/wiki/Nebelung"}
 synonym: "Nebelung" EXACT most_common_name [] {source="https://fifeweb.org/cats/ems-system/", source="https://wcf.de/en/wcf-ems-code/", source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/", source="https://www.worldcatcongress.org/wp/cat_breed_comp_neb.php", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.tica.org/breeds/browse-all-breeds"}
 synonym: "Russian Blue Longhair" EXACT [] {source="https://wcf.de/en/wcf-ems-code/"}
+xref: VeNom:15302 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0100200 {source="https://www.tica.org/breeds/browse-all-breeds?view=article&id=1663:the-nebelung-breed&catid=48", source="https://www.tica.org/phocadownload/nb.pdf"} ! has foundation stock Russian Blue (Cat)
@@ -269996,6 +270106,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
 property_value: dcterms:source "https://fifeweb.org/cats/ems-system/" xsd:anyURI
 property_value: dcterms:source "https://wcf.de/en/wcf-ems-code/" xsd:anyURI
@@ -270008,6 +270119,7 @@ property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-br
 id: VBO:0100173
 name: Neva Masquerade (Cat)
 synonym: "Neva Masquerade" EXACT most_common_name [] {source="https://fifeweb.org/cats/breeds/"}
+xref: VeNom:15303 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "NEM" xsd:string {source="https://fifeweb.org/cats/breeds/"}
@@ -270016,6 +270128,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "https://fifeweb.org/cats/breeds/" xsd:anyURI
 property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/200" xsd:anyURI
 
@@ -270097,6 +270210,7 @@ name: Norwegian Forest Cat (Cat)
 synonym: "Norwegian Forest" EXACT [] {source="https://omia.org/home/", source="https://www.tica.org/breeds/browse-all-breeds"}
 synonym: "Norwegian Forest Cat" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/", source="https://fifeweb.org/cats/breeds/", source="https://www.worldcatcongress.org/wp/cat_breed_comp_nfo.php", source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://cfa.org/breeds/", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.tica.org/breeds/browse-all-breeds"}
 synonym: "Skogkatt" EXACT [] {source="https://cfa.org/norwegian-forest-cat/"}
+xref: VeNom:15304 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "NF" xsd:string {source="https://www.tica.org/phocadownload/nf.pdf"}
@@ -270108,6 +270222,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "http://omia.org" xsd:anyURI
 property_value: dcterms:source "https://cfa.org/breeds/" xsd:anyURI
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
@@ -270123,6 +270238,7 @@ property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-br
 id: VBO:0100179
 name: Ocicat (Cat)
 synonym: "Ocicat" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/", source="https://www.worldcatcongress.org/wp/cat_breed_comp_oci.php", source="https://fifeweb.org/cats/breeds/", source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://cfa.org/breeds/", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.tica.org/breeds/browse-all-breeds"}
+xref: VeNom:15305 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0100000 {source="https://cfa.org/ocicat/", source="https://en.wikipedia.org/wiki/Ocicat", source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/ocicat/", source="https://www.tica.org/breeds/browse-all-breeds?view=article&id=1504:the-ocicat-breed&catid=48"} ! has foundation stock Abyssinian (Cat)
@@ -270136,6 +270252,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "https://cfa.org/breeds/" xsd:anyURI
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
 property_value: dcterms:source "https://fifeweb.org/cats/breeds/" xsd:anyURI
@@ -270150,6 +270267,7 @@ property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-br
 id: VBO:0100180
 name: Ojos Azules (Cat)
 synonym: "Ojos Azules" EXACT most_common_name [] {source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds"}
+xref: VeNom:15306 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "OJA" xsd:string {source="https://www.rareexoticfelineregistry.com/breed-recognition/"}
@@ -270159,6 +270277,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
 property_value: dcterms:source "https://www.rareexoticfelineregistry.com/breed-recognition/" xsd:anyURI
 
@@ -270195,6 +270314,7 @@ name: Oriental Longhair (Cat)
 synonym: "Foreign Longhair" EXACT [] {source="https://en.wikipedia.org/wiki/Oriental_Longhair"}
 synonym: "Mandarin" EXACT [] {source="https://en.wikipedia.org/wiki/Oriental_Longhair", source="https://wcf.de/en/siam-ori-en/"}
 synonym: "Oriental Longhair" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/", source="https://fifeweb.org/cats/breeds/", source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.tica.org/breeds/browse-all-breeds"}
+xref: VeNom:15308 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0100000 {source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/oriental/", source="https://www.tica.org/breeds/browse-all-breeds?view=article&id=1286:the-oriental-longhair-breed&catid=48"} ! has foundation stock Abyssinian (Cat)
@@ -270209,6 +270329,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
 property_value: dcterms:source "https://fifeweb.org/cats/breeds/" xsd:anyURI
 property_value: dcterms:source "https://wcf.de/en/wcf-ems-code/" xsd:anyURI
@@ -270221,6 +270342,7 @@ property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-br
 id: VBO:0100184
 name: Oriental Shorthair (Cat)
 synonym: "Oriental Shorthair" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/", source="https://fifeweb.org/cats/breeds/", source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.tica.org/breeds/browse-all-breeds"}
+xref: VeNom:15309 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0100000 {source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/oriental/", source="https://www.tica.org/breeds/browse-all-breeds?view=article&id=1292:the-oriental-shorthair-breed&catid=48"} ! has foundation stock Abyssinian (Cat)
@@ -270235,6 +270357,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "http://omia.org" xsd:anyURI
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
 property_value: dcterms:source "https://fifeweb.org/cats/breeds/" xsd:anyURI
@@ -270295,6 +270418,7 @@ name: Persian (Cat)
 synonym: "Persian" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/", source="https://fifeweb.org/cats/breeds/", source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://cfa.org/breeds/", source="https://www.worldcatcongress.org/wp/cat_breed_comp_per.php", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.tica.org/breeds/browse-all-breeds"}
 synonym: "Persian (modern)" EXACT [] {source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds"}
 synonym: "Persian (traditional)" EXACT [] {source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds"}
+xref: VeNom:18760 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "PER" xsd:string {source="https://fifeweb.org/cats/breeds/", source="https://wcf.de/en/wcf-ems-code/", source="https://www.gccfcats.org/wp-content/uploads/2024/04/SOP.final_.April2024.pdf", source="https://www.rareexoticfelineregistry.com/breed-recognition/"}
@@ -270305,6 +270429,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "http://omia.org" xsd:anyURI
 property_value: dcterms:source "https://cfa.org/breeds/" xsd:anyURI
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
@@ -270320,6 +270445,7 @@ property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-br
 id: VBO:0100189
 name: Peterbald (Cat)
 synonym: "Peterbald" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/", source="https://fifeweb.org/cats/breeds/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.tica.org/breeds/browse-all-breeds"}
+xref: VeNom:15312 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0100085 {source="https://en.wikipedia.org/wiki/Peterbald"} ! has foundation stock Don Sphynx (Cat)
@@ -270335,6 +270461,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
 property_value: dcterms:source "https://fifeweb.org/cats/breeds/" xsd:anyURI
 property_value: dcterms:source "https://wcf.de/en/wcf-ems-code/" xsd:anyURI
@@ -270363,6 +270490,7 @@ id: VBO:0100191
 name: Pixiebob (Cat)
 synonym: "Pixie-bob" EXACT [] {source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds"}
 synonym: "Pixiebob" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.tica.org/breeds/browse-all-breeds"}
+xref: VeNom:15313 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "PB" xsd:string {source="https://www.tica.org/phocadownload/pb.pdf"}
@@ -270374,6 +270502,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "http://omia.org" xsd:anyURI
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
 property_value: dcterms:source "https://wcf.de/en/wcf-ems-code/" xsd:anyURI
@@ -270428,6 +270557,7 @@ id: VBO:0100195
 name: Ragamuffin (Cat)
 synonym: "RagaMuffin" EXACT [] {source="https://fifeweb.org/cats/ems-system/", source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/", source="https://cfa.org/breeds/"}
 synonym: "Ragamuffin" EXACT most_common_name [] {source="https://fifeweb.org/cats/ems-system/", source="https://wcf.de/en/wcf-ems-code/", source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://cfa.org/breeds/", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds"}
+xref: VeNom:15314 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0100117 {source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/ragamuffin/"} ! has foundation stock Himalayan (Cat)
@@ -270442,6 +270572,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "https://cfa.org/breeds/" xsd:anyURI
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
 property_value: dcterms:source "https://fifeweb.org/cats/ems-system/" xsd:anyURI
@@ -270454,6 +270585,7 @@ property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-br
 id: VBO:0100196
 name: Ragdoll (Cat)
 synonym: "Ragdoll" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/", source="https://fifeweb.org/cats/breeds/", source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://cfa.org/breeds/", source="https://www.worldcatcongress.org/wp/cat_breed_comp_rag.php", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.tica.org/breeds/browse-all-breeds"}
+xref: VeNom:15315 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "RAG" xsd:string {source="https://fifeweb.org/cats/breeds/", source="https://wcf.de/en/wcf-ems-code/", source="https://www.gccfcats.org/wp-content/uploads/2024/04/SOP.final_.April2024.pdf"}
@@ -270465,6 +270597,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "http://omia.org" xsd:anyURI
 property_value: dcterms:source "https://cfa.org/breeds/" xsd:anyURI
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
@@ -270510,6 +270643,7 @@ property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-br
 id: VBO:0100199
 name: Russian Black (Cat)
 synonym: "Russian Black" EXACT most_common_name [] {source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds"}
+xref: VeNom:18751 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0100200 {source="https://en.wikipedia.org/wiki/Russian_White,_Black,_and_Tabby"} ! has foundation stock Russian Blue (Cat)
@@ -270517,12 +270651,14 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
 
 [Term]
 id: VBO:0100200
 name: Russian Blue (Cat)
 synonym: "Russian Blue" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/", source="https://fifeweb.org/cats/breeds/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://cfa.org/breeds/", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.worldcatcongress.org/wp/cat_breed_comp_rub.php", source="https://www.tica.org/breeds/browse-all-breeds"}
+xref: VeNom:18753 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "RB" xsd:string {source="https://www.tica.org/phocadownload/rb.pdf"}
@@ -270534,6 +270670,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "http://omia.org" xsd:anyURI
 property_value: dcterms:source "https://cfa.org/breeds/" xsd:anyURI
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
@@ -270548,6 +270685,7 @@ property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-br
 id: VBO:0100201
 name: Russian Tabby (Cat)
 synonym: "Russian Tabby" EXACT most_common_name [] {source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds"}
+xref: VeNom:18755 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0100200 {source="https://en.wikipedia.org/wiki/Russian_White,_Black,_and_Tabby"} ! has foundation stock Russian Blue (Cat)
@@ -270555,12 +270693,14 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
 
 [Term]
 id: VBO:0100202
 name: Russian White (Cat)
 synonym: "Russian White" EXACT most_common_name [] {source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds"}
+xref: VeNom:18757 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0100200 {source="https://en.wikipedia.org/wiki/Russian_White,_Black,_and_Tabby"} ! has foundation stock Russian Blue (Cat)
@@ -270568,6 +270708,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
 
 [Term]
@@ -270647,6 +270788,7 @@ property_value: dcterms:source "https://www.rareexoticfelineregistry.com/breed-r
 id: VBO:0100208
 name: Savannah (Cat)
 synonym: "Savannah" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://www.worldcatcongress.org/wp/cat_breed_comp_sav.php", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.tica.org/breeds/browse-all-breeds"}
+xref: VeNom:15318 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0100220 {source="https://en.wikipedia.org/wiki/Savannah_cat", source="https://wcf.de/pdf-en/breed/Standard_Savannah_EN_22112020.pdf", source="https://www.tica.org/breeds/browse-all-breeds?view=article&id=1311:the-savannah-breed&catid=48", source="https://www.tica.org/phocadownload/sv.pdf"} ! has foundation stock Serval (Cat)
@@ -270658,6 +270800,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
 property_value: dcterms:source "https://wcf.de/en/wcf-ems-code/" xsd:anyURI
 property_value: dcterms:source "https://www.rareexoticfelineregistry.com/breed-recognition/" xsd:anyURI
@@ -270689,6 +270832,7 @@ property_value: dcterms:source "https://www.tica.org/breeds/browse-all-breeds" x
 id: VBO:0100210
 name: Scottish Fold Longhair (Cat)
 synonym: "Scottish Fold Longhair" EXACT most_common_name [] {source="https://www.tica.org/breeds/browse-all-breeds"}
+xref: VeNom:15319 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "SFL" xsd:string {source="https://www.tica.org/phocadownload/scottish_breed_group_-_4_columns-landscape.pdf"}
@@ -270697,6 +270841,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "https://www.tica.org/breeds/browse-all-breeds" xsd:anyURI
 
 [Term]
@@ -270761,6 +270906,7 @@ property_value: dcterms:source "https://www.tica.org/breeds/browse-all-breeds" x
 id: VBO:0100215
 name: Selkirk Rex (Cat)
 synonym: "Selkirk Rex" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/", source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://cfa.org/breeds/", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.tica.org/breeds/browse-all-breeds"}
+xref: VeNom:15322 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0100188 {source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/selkirk-rex/"} ! has foundation stock Persian (Cat)
@@ -270773,6 +270919,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "http://omia.org" xsd:anyURI
 property_value: dcterms:source "https://cfa.org/breeds/" xsd:anyURI
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
@@ -270819,6 +270966,7 @@ property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-br
 id: VBO:0100218
 name: Serengeti (Cat)
 synonym: "Serengeti" EXACT most_common_name [] {source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.tica.org/breeds/browse-all-breeds", source="https://www.worldcatcongress.org/wp/cat_breed_comp_ser.php"}
+xref: VeNom:15323 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0100040 {source="https://en.wikipedia.org/wiki/Serengeti_cat", source="https://www.tica.org/breeds/browse-all-breeds?view=article&id=892:serengeti-breed&catid=79"} ! has foundation stock Bengal (Cat)
@@ -270832,6 +270980,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
 property_value: dcterms:source "https://www.rareexoticfelineregistry.com/breed-recognition/" xsd:anyURI
 property_value: dcterms:source "https://www.tica.org/breeds/browse-all-breeds" xsd:anyURI
@@ -270867,6 +271016,7 @@ property_value: dcterms:source "https://www.rareexoticfelineregistry.com/breed-r
 id: VBO:0100221
 name: Siamese (Cat)
 synonym: "Siamese" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/", source="https://fifeweb.org/cats/breeds/", source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://cfa.org/breeds/", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.tica.org/breeds/browse-all-breeds"}
+xref: VeNom:15326 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "SI" xsd:string {source="https://www.tica.org/phocadownload/si.pdf"}
@@ -270877,6 +271027,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "http://omia.org" xsd:anyURI
 property_value: dcterms:source "https://cfa.org/breeds/" xsd:anyURI
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
@@ -270909,6 +271060,7 @@ name: Siberian (Cat)
 synonym: "Siberian" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/", source="https://fifeweb.org/cats/breeds/", source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://cfa.org/breeds/", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.tica.org/breeds/browse-all-breeds"}
 synonym: "Siberian Cat" EXACT [] {source="https://wcf.de/en/wcf-ems-code/"}
 synonym: "Simberian Forest Cat" EXACT [] {source="https://en.wikipedia.org/wiki/Siberian_cat"}
+xref: VeNom:15327 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "SB" xsd:string {source="https://www.tica.org/phocadownload/sb.pdf"}
@@ -270918,6 +271070,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "http://omia.org" xsd:anyURI
 property_value: dcterms:source "https://cfa.org/breeds/" xsd:anyURI
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
@@ -270932,6 +271085,7 @@ property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-br
 id: VBO:0100224
 name: Singapura (Cat)
 synonym: "Singapura" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/", source="https://fifeweb.org/cats/breeds/", source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://cfa.org/breeds/", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.tica.org/breeds/browse-all-breeds"}
+xref: VeNom:15329 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "SG" xsd:string {source="https://www.tica.org/phocadownload/sg.pdf"}
@@ -270943,6 +271097,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "http://omia.org" xsd:anyURI
 property_value: dcterms:source "https://cfa.org/breeds/" xsd:anyURI
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
@@ -270986,6 +271141,7 @@ property_value: dcterms:source "https://www.rareexoticfelineregistry.com/breed-r
 id: VBO:0100227
 name: Snowshoe (Cat)
 synonym: "Snowshoe" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/", source="https://fifeweb.org/cats/breeds/", source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.tica.org/breeds/browse-all-breeds"}
+xref: VeNom:15330 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0100018 {source="https://en.wikipedia.org/wiki/Snowshoe_cat", source="https://www.tica.org/breeds/browse-all-breeds?view=article&id=1817"} ! has foundation stock American Shorthair (Cat)
@@ -270999,6 +271155,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
 property_value: dcterms:source "https://fifeweb.org/cats/breeds/" xsd:anyURI
 property_value: dcterms:source "https://wcf.de/en/wcf-ems-code/" xsd:anyURI
@@ -271012,6 +271169,7 @@ id: VBO:0100228
 name: Sokoke (Cat)
 synonym: "Sokoke" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/", source="https://fifeweb.org/cats/breeds/", source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.worldcatcongress.org/wp/cat_breed_comp_sok.php"}
 synonym: "Sokoke Forest Cat" EXACT [] {source="https://en.wikipedia.org/wiki/Sokoke"}
+xref: VeNom:15331 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "SOK" xsd:string {source="https://fifeweb.org/cats/breeds/", source="https://wcf.de/en/wcf-ems-code/", source="https://www.gccfcats.org/wp-content/uploads/2024/04/SOP.final_.April2024.pdf", source="https://www.rareexoticfelineregistry.com/breed-recognition/"}
@@ -271023,6 +271181,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
 property_value: dcterms:source "https://fifeweb.org/cats/breeds/" xsd:anyURI
 property_value: dcterms:source "https://wcf.de/en/wcf-ems-code/" xsd:anyURI
@@ -271035,6 +271194,7 @@ property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-br
 id: VBO:0100229
 name: Somali (Cat)
 synonym: "Somali" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/", source="https://fifeweb.org/cats/breeds/", source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://cfa.org/breeds/", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.tica.org/breeds/browse-all-breeds"}
+xref: VeNom:7355 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0100000 {source="https://cfa.org/somali/", source="https://en.wikipedia.org/wiki/Somali_cat", source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/somali/"} ! has foundation stock Abyssinian (Cat)
@@ -271047,6 +271207,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "http://omia.org" xsd:anyURI
 property_value: dcterms:source "https://cfa.org/breeds/" xsd:anyURI
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
@@ -271062,6 +271223,7 @@ id: VBO:0100230
 name: Sphynx (Cat)
 synonym: "Canadian Sphynx" EXACT [] {source="https://en.wikipedia.org/wiki/Sphynx_cat"}
 synonym: "Sphynx" EXACT most_common_name [] {source="https://fifeweb.org/cats/breeds/", source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://cfa.org/breeds/", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.tica.org/breeds/browse-all-breeds"}
+xref: VeNom:15333 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "SPH" xsd:string {source="https://fifeweb.org/cats/breeds/", source="https://www.gccfcats.org/wp-content/uploads/2024/04/SOP.final_.April2024.pdf"}
@@ -271073,6 +271235,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "http://omia.org" xsd:anyURI
 property_value: dcterms:source "https://cfa.org/breeds/" xsd:anyURI
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
@@ -271147,6 +271310,7 @@ id: VBO:0100235
 name: Thai (Cat)
 synonym: "Thai" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/", source="https://fifeweb.org/cats/breeds/", source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/", source="https://www.worldcatcongress.org/wp/cat_breed_comp_thai.php", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.tica.org/breeds/browse-all-breeds"}
 synonym: "Wichien Maat" EXACT [] {source="PMID:39085978", source="https://en.wikipedia.org/wiki/Thai_cat"}
+xref: VeNom:18104 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0100221 {source="https://www.tica.org/breeds/browse-all-breeds?view=article&id=1314:the-thai-breed&catid=48", source="https://www.tica.org/phocadownload/th.pdf"} ! has foundation stock Siamese (Cat)
@@ -271160,6 +271324,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
 property_value: dcterms:source "https://fifeweb.org/cats/breeds/" xsd:anyURI
 property_value: dcterms:source "https://wcf.de/en/wcf-ems-code/" xsd:anyURI
@@ -271213,6 +271378,7 @@ id: VBO:0100239
 name: Tiffanie (Cat)
 synonym: "Tiffanie" EXACT most_common_name [] {source="https://fifeweb.org/cats/ems-system/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://www.worldcatcongress.org/wp/cat_breed_comp_tif.php"}
 synonym: "Tiffany" EXACT [] {source="https://www.rareexoticfelineregistry.com/breed-recognition/"}
+xref: VeNom:22665 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "TIF" xsd:string {source="https://www.rareexoticfelineregistry.com/breed-recognition/"}
@@ -271223,6 +271389,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "https://fifeweb.org/cats/ems-system/" xsd:anyURI
 property_value: dcterms:source "https://www.rareexoticfelineregistry.com/breed-recognition/" xsd:anyURI
 property_value: dcterms:source "https://www.worldcatcongress.org/wp/cat_breed_comp_tif.php" xsd:anyURI
@@ -271252,6 +271419,7 @@ property_value: dcterms:source "https://www.rareexoticfelineregistry.com/breed-r
 id: VBO:0100241
 name: Tonkinese (Cat)
 synonym: "Tonkinese" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/", source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://cfa.org/breeds/", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.tica.org/breeds/browse-all-breeds"}
+xref: VeNom:15334 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0100053 {source="https://cfa.org/tonkinese/", source="https://wcf.de/pdf-en/breed/TON_en_2010-01-01.pdf", source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/tonkinese/", source="https://www.tica.org/breeds/browse-all-breeds?view=article&id=1999"} ! has foundation stock Burmese (Cat)
@@ -271265,6 +271433,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "http://omia.org" xsd:anyURI
 property_value: dcterms:source "https://cfa.org/breeds/" xsd:anyURI
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
@@ -271333,6 +271502,7 @@ property_value: dcterms:source "https://www.tica.org/breeds/browse-all-breeds" x
 id: VBO:0100245
 name: Toyger (Cat)
 synonym: "Toyger" EXACT most_common_name [] {source="https://fifeweb.org/cats/ems-system/", source="https://wcf.de/en/wcf-ems-code/", source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.worldcatcongress.org/wp/cat_breed_comp_toy.php", source="https://www.tica.org/breeds/browse-all-breeds"}
+xref: VeNom:15335 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0100040 {source="https://en.wikipedia.org/wiki/Toyger", source="https://wcf.de/pdf-en/breed/Toyger_EN.pdf", source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/toyger/", source="https://www.tica.org/breeds/browse-all-breeds?view=article&id=1868"} ! has foundation stock Bengal (Cat)
@@ -271347,6 +271517,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "http://omia.org" xsd:anyURI
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
 property_value: dcterms:source "https://fifeweb.org/cats/ems-system/" xsd:anyURI
@@ -271409,6 +271580,7 @@ property_value: dcterms:source "https://www.rareexoticfelineregistry.com/breed-r
 id: VBO:0100249
 name: Turkish Angora (Cat)
 synonym: "Turkish Angora" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/", source="https://fifeweb.org/cats/breeds/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://cfa.org/breeds/", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.tica.org/breeds/browse-all-breeds"}
+xref: VeNom:15336 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "TA" xsd:string {source="https://www.tica.org/phocadownload/ta.pdf"}
@@ -271420,6 +271592,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "https://cfa.org/breeds/" xsd:anyURI
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
 property_value: dcterms:source "https://fifeweb.org/cats/breeds/" xsd:anyURI
@@ -271432,6 +271605,7 @@ property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-br
 id: VBO:0100250
 name: Turkish Van (Cat)
 synonym: "Turkish Van" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/", source="https://fifeweb.org/cats/breeds/", source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://cfa.org/breeds/", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.tica.org/breeds/browse-all-breeds"}
+xref: VeNom:15337 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "TUV" xsd:string {source="https://fifeweb.org/cats/breeds/", source="https://wcf.de/en/wcf-ems-code/", source="https://www.gccfcats.org/wp-content/uploads/2024/04/SOP.final_.April2024.pdf"}
@@ -271443,6 +271617,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "http://omia.org" xsd:anyURI
 property_value: dcterms:source "https://cfa.org/breeds/" xsd:anyURI
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
@@ -271457,6 +271632,7 @@ property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-br
 id: VBO:0100251
 name: Turkish Vankedisi (Cat)
 synonym: "Turkish Vankedisi" EXACT most_common_name [] {source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds"}
+xref: VeNom:15338 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "TUV W" xsd:string {source="https://www.gccfcats.org/wp-content/uploads/2024/04/SOP.final_.April2024.pdf"}
@@ -271465,6 +271641,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
 property_value: dcterms:source "https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/" xsd:anyURI
 property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/200" xsd:anyURI
@@ -271548,6 +271725,7 @@ id: VBO:0100257
 name: York Chocolate (Cat)
 synonym: "York" EXACT [] {source="https://en.wikipedia.org/wiki/York_Chocolate"}
 synonym: "York Chocolate" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds"}
+xref: VeNom:15339 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "YKC" xsd:string {source="https://www.rareexoticfelineregistry.com/breed-recognition/"}
@@ -271558,6 +271736,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
 property_value: dcterms:source "https://wcf.de/en/wcf-ems-code/" xsd:anyURI
 property_value: dcterms:source "https://www.rareexoticfelineregistry.com/breed-recognition/" xsd:anyURI
@@ -271566,12 +271745,14 @@ property_value: dcterms:source "https://www.rareexoticfelineregistry.com/breed-r
 id: VBO:0100258
 name: Oregon Rex (extinct) (Cat)
 synonym: "Oregon Rex (extinct)" EXACT most_common_name [] {source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds"}
+xref: VeNom:15307 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
 
 [Term]
@@ -271660,6 +271841,7 @@ id: VBO:0100265
 name: Domestic Medium Hair (Cat)
 def: "A cat of mixed ancestry that has not been intentionally bred and possess a coat of semi-long fur. " [https://en.wikipedia.org/wiki/Moggy, https://orcid.org/0000-0002-4142-7153, https://orcid.org/0000-0002-5002-8648]
 synonym: "Domestic Medium Hair" EXACT most_common_name [] {source="https://www.aspcapetinsurance.com/resources/domestic-medium-hair/"}
+xref: VeNom:15272 {source="https://venomcoding.org/venom-codes/"}
 is_a: VBO:0100262 {source="https://orcid.org/0000-0002-5002-8648"} ! Mixed Breed (Cat)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "DMH" xsd:string {source="https://orcid.org/0000-0002-1628-7726"}
@@ -271667,6 +271849,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-1628-7726
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
 property_value: dcterms:source "https://www.aspcapetinsurance.com/resources/domestic-medium-hair/" xsd:anyURI
 property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/65" xsd:anyURI
 
@@ -278037,6 +278220,7 @@ synonym: "Chihuahueño" EXACT [] {source="https://www.fci.be/en/nomenclature/CHI
 xref: FCI:218 {source="https://www.fci.be/en/nomenclature/CHIHUAHUA-218.html"}
 xref: iDog:71 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=71"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
+relationship: VBO:0300019 VBO:7770001 {source="https://en.wikipedia.org/wiki/Chihuahua_(dog)", source="https://en.wikipedia.org/wiki/Techichi", source="https://www.akc.org/expert-advice/dog-breeds/chihuahua-history/"} ! has foundation stock Techichi (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_recognition_status VBO:0300002 {source="https://www.akc.org/dog-breeds/chihuahua/", source="https://www.fci.be/en/nomenclature/CHIHUAHUA-218.html"}
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
@@ -299232,6 +299416,19 @@ def: "A breed of Mammalia." [] {source="https://orcid.org/0000-0002-5002-8648", 
 comment: Breeds included in VBO have been characterized, defined, and determined by international breed organizations, communities, experts, and/or have been reported in the literature. https://monarch-initiative.github.io/vertebrate-breed-ontology/general/general/
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/217" xsd:anyURI
+
+[Term]
+id: VBO:7770001
+name: Techichi (Dog)
+def: "An extinct breed of small dog bred by the Toltec civilization in 9th century Mexico, believed to be the ancestral breed from which the modern Chihuahua descended. Techichi were larger than modern Chihuahuas (10-30 pounds), believed to be mute, and had only long coats." [https://en.wikipedia.org/wiki/Techichi, https://www.britannica.com/animal/Techichi]
+synonym: "Techichi" EXACT most_common_name [] {source="https://en.wikipedia.org/wiki/Techichi", source="https://www.britannica.com/animal/Techichi"}
+is_a: NCBITaxon:9615 ! Canis lupus familiaris
+is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153"} ! Vertebrate breed
+property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
+property_value: dcterms:contributor https://orcid.org/0000-0003-1940-6740
+property_value: dcterms:source "https://en.wikipedia.org/wiki/Techichi" xsd:anyURI
+property_value: dcterms:source "https://www.britannica.com/animal/Techichi" xsd:anyURI
+property_value: IAO:0000233 "https://github.com/ai4curation/icbo-ai-tutorial/discussions" xsd:anyURI
 
 [Typedef]
 id: VBO:0300019
