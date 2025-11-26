@@ -297572,6 +297572,7 @@ name: Weimaraner (Dog)
 synonym: "Grey Ghost" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=252"}
 synonym: "Vorstehhund" EXACT [] {source="https://venomcoding.org/venom-codes/"}
 synonym: "Weim" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=252"}
+synonym: "Weimie" EXACT [] {source="https://en.wikipedia.org/wiki/Weimaraner"}
 synonym: "Weimaraner" EXACT most_common_name [] {source="https://en.wikipedia.org/wiki/Weimaraner", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=252", source="https://venomcoding.org/venom-codes/", source="https://www.akc.org/dog-breeds/weimaraner/", source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Sporting-Dogs/Weimaraner", source="https://www.ukcdogs.com/weimaraner", source="http://omia.org", source="https://www.thekennelclub.org.uk/search/breeds-a-to-z/breeds/gundog/weimaraner/", source="https://www.fci.be/en/nomenclature/WEIMARANER-99.html"}
 synonym: "Weimaraner (Vorstehhund)" EXACT [] {source="https://venomcoding.org/venom-codes/"}
 synonym: "Weimaraner Vorstehhund" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=252"}
