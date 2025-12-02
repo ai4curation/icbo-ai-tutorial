@@ -61,6 +61,40 @@ This includes instructions for editing the vertebrate breed ontology.
 - To validate syntax: `robot convert --catalog src/ontology/catalog-v001.xml -i src/ontology/vbo-edit.obo -f obo -o vbo-edit.TMP.obo`
 - Use `-vvv` for a full stack trace if there are errors.
 
+## SSSOM Mapping Files
+
+When working with SSSOM (Simple Standard for Sharing Ontology Mappings) files:
+
+### Format Requirements
+- SSSOM files use TSV (tab-separated values) format with metadata in comment lines (prefixed with `#`)
+- **IMPORTANT**: Do NOT include empty commented lines (lines containing only `#`) in SSSOM files
+- Empty commented lines can cause parsing issues with SSSOM validation tools
+- Metadata comments should be consecutive at the top of the file, with no blank lines between them
+- The column headers (starting with `subject_id`) should immediately follow the metadata section
+
+### Example Structure
+```
+# metadata_property: value
+# another_property: value
+subject_id	predicate_id	object_id	mapping_justification
+VENOM:123	skos:exactMatch	VBO:456	semapv:ManualMappingCuration
+```
+
+**Incorrect** (contains empty commented line):
+```
+# metadata_property: value
+#
+# another_property: value
+subject_id	predicate_id	object_id
+```
+
+**Correct** (no empty commented lines):
+```
+# metadata_property: value
+# another_property: value
+subject_id	predicate_id	object_id
+```
+
 # Vbo Guidelines
 
 
