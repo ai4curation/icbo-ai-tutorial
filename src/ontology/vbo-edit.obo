@@ -299233,6 +299233,136 @@ comment: Breeds included in VBO have been characterized, defined, and determined
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/217" xsd:anyURI
 
+[Term]
+id: VBO:7770010
+name: betta breed
+def: "A breed of Betta splendens (Siamese fighting fish)." [] {source="https://orcid.org/0000-0002-5002-8648"}
+intersection_of: VBO:0400000 ! Vertebrate breed
+intersection_of: derived_from NCBITaxon:158456 ! Betta splendens
+is_a: VBO:0400041 ! Fish breed
+property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
+property_value: dcterms:source "https://www.ibcbettas.org/upcoming-shows/standards/" xsd:anyURI
+property_value: dcterms:source "https://en.wikipedia.org/wiki/Siamese_fighting_fish" xsd:anyURI
+
+[Term]
+id: VBO:7770011
+name: Halfmoon (Betta)
+synonym: "Halfmoon" EXACT most_common_name [] {source="https://www.ibcbettas.org/upcoming-shows/standards/", source="https://www.aquariumcoop.com/blogs/aquarium/betta-fish-types"}
+synonym: "HM" EXACT ABBREVIATION [] {source="https://www.aquariumcoop.com/blogs/aquarium/betta-fish-types"}
+is_a: NCBITaxon:158456 {source="https://orcid.org/0000-0002-5002-8648"} ! Betta splendens
+is_a: VBO:0400000 {source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
+is_a: VBO:7770010 {source="https://orcid.org/0000-0002-5002-8648"} ! betta breed
+property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
+property_value: dcterms:source "https://www.aquariumcoop.com/blogs/aquarium/betta-fish-types" xsd:anyURI
+property_value: dcterms:source "https://www.ibcbettas.org/upcoming-shows/standards/" xsd:anyURI
+property_value: dcterms:source "https://en.wikipedia.org/wiki/Siamese_fighting_fish" xsd:anyURI
+
+[Term]
+id: VBO:7770012
+name: Crowntail (Betta)
+synonym: "Crowntail" EXACT most_common_name [] {source="https://www.ibcbettas.org/upcoming-shows/standards/", source="https://www.aquariumcoop.com/blogs/aquarium/betta-fish-types"}
+synonym: "CT" EXACT ABBREVIATION [] {source="https://www.aquariumcoop.com/blogs/aquarium/betta-fish-types"}
+is_a: NCBITaxon:158456 {source="https://orcid.org/0000-0002-5002-8648"} ! Betta splendens
+is_a: VBO:0400000 {source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
+is_a: VBO:7770010 {source="https://orcid.org/0000-0002-5002-8648"} ! betta breed
+property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
+property_value: dcterms:source "https://www.aquariumcoop.com/blogs/aquarium/betta-fish-types" xsd:anyURI
+property_value: dcterms:source "https://www.ibcbettas.org/upcoming-shows/standards/" xsd:anyURI
+property_value: dcterms:source "https://en.wikipedia.org/wiki/Siamese_fighting_fish" xsd:anyURI
+
+[Term]
+id: VBO:7770013
+name: Plakat (Betta)
+synonym: "Plakat" EXACT most_common_name [] {source="https://www.ibcbettas.org/upcoming-shows/standards/", source="https://www.aquariumcoop.com/blogs/aquarium/betta-fish-types"}
+synonym: "PK" EXACT ABBREVIATION [] {source="https://www.aquariumcoop.com/blogs/aquarium/betta-fish-types"}
+synonym: "Plakad" EXACT [] {source="https://theaquariumwiki.com/wiki/Betta_splendens_-_variations"}
+is_a: NCBITaxon:158456 {source="https://orcid.org/0000-0002-5002-8648"} ! Betta splendens
+is_a: VBO:0400000 {source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
+is_a: VBO:7770010 {source="https://orcid.org/0000-0002-5002-8648"} ! betta breed
+property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
+property_value: dcterms:source "https://theaquariumwiki.com/wiki/Betta_splendens_-_variations" xsd:anyURI
+property_value: dcterms:source "https://www.aquariumcoop.com/blogs/aquarium/betta-fish-types" xsd:anyURI
+property_value: dcterms:source "https://www.ibcbettas.org/upcoming-shows/standards/" xsd:anyURI
+property_value: dcterms:source "https://en.wikipedia.org/wiki/Siamese_fighting_fish" xsd:anyURI
+
+[Term]
+id: VBO:7770014
+name: Veiltail (Betta)
+synonym: "Veiltail" EXACT most_common_name [] {source="https://www.ibcbettas.org/upcoming-shows/standards/", source="https://www.aquariumcoop.com/blogs/aquarium/betta-fish-types"}
+synonym: "VT" EXACT ABBREVIATION [] {source="https://www.aquariumcoop.com/blogs/aquarium/betta-fish-types"}
+synonym: "Veil Tail" EXACT [] {source="https://theaquariumwiki.com/wiki/Betta_splendens_-_variations"}
+is_a: NCBITaxon:158456 {source="https://orcid.org/0000-0002-5002-8648"} ! Betta splendens
+is_a: VBO:0400000 {source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
+is_a: VBO:7770010 {source="https://orcid.org/0000-0002-5002-8648"} ! betta breed
+property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
+property_value: dcterms:source "https://theaquariumwiki.com/wiki/Betta_splendens_-_variations" xsd:anyURI
+property_value: dcterms:source "https://www.aquariumcoop.com/blogs/aquarium/betta-fish-types" xsd:anyURI
+property_value: dcterms:source "https://www.ibcbettas.org/upcoming-shows/standards/" xsd:anyURI
+property_value: dcterms:source "https://en.wikipedia.org/wiki/Siamese_fighting_fish" xsd:anyURI
+
+[Term]
+id: VBO:7770015
+name: Delta (Betta)
+synonym: "Delta" EXACT most_common_name [] {source="https://www.ibcbettas.org/upcoming-shows/standards/", source="https://www.aquariumcoop.com/blogs/aquarium/betta-fish-types"}
+synonym: "Super Delta" RELATED [] {source="https://www.aquariumcoop.com/blogs/aquarium/betta-fish-types"}
+is_a: NCBITaxon:158456 {source="https://orcid.org/0000-0002-5002-8648"} ! Betta splendens
+is_a: VBO:0400000 {source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
+is_a: VBO:7770010 {source="https://orcid.org/0000-0002-5002-8648"} ! betta breed
+property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
+property_value: dcterms:source "https://www.aquariumcoop.com/blogs/aquarium/betta-fish-types" xsd:anyURI
+property_value: dcterms:source "https://www.ibcbettas.org/upcoming-shows/standards/" xsd:anyURI
+property_value: dcterms:source "https://en.wikipedia.org/wiki/Siamese_fighting_fish" xsd:anyURI
+
+[Term]
+id: VBO:7770016
+name: Double Tail (Betta)
+synonym: "Double Tail" EXACT most_common_name [] {source="https://www.ibcbettas.org/upcoming-shows/standards/", source="https://www.aquariumcoop.com/blogs/aquarium/betta-fish-types"}
+synonym: "DT" EXACT ABBREVIATION [] {source="https://www.aquariumcoop.com/blogs/aquarium/betta-fish-types"}
+is_a: NCBITaxon:158456 {source="https://orcid.org/0000-0002-5002-8648"} ! Betta splendens
+is_a: VBO:0400000 {source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
+is_a: VBO:7770010 {source="https://orcid.org/0000-0002-5002-8648"} ! betta breed
+property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
+property_value: dcterms:source "https://www.aquariumcoop.com/blogs/aquarium/betta-fish-types" xsd:anyURI
+property_value: dcterms:source "https://www.ibcbettas.org/upcoming-shows/standards/" xsd:anyURI
+property_value: dcterms:source "https://en.wikipedia.org/wiki/Siamese_fighting_fish" xsd:anyURI
+
+[Term]
+id: VBO:7770017
+name: Rosetail (Betta)
+synonym: "Rosetail" EXACT most_common_name [] {source="https://www.ibcbettas.org/upcoming-shows/standards/", source="https://www.aquariumcoop.com/blogs/aquarium/betta-fish-types"}
+synonym: "Rose Tail" EXACT [] {source="https://www.aquariumcoop.com/blogs/aquarium/betta-fish-types"}
+is_a: NCBITaxon:158456 {source="https://orcid.org/0000-0002-5002-8648"} ! Betta splendens
+is_a: VBO:0400000 {source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
+is_a: VBO:7770010 {source="https://orcid.org/0000-0002-5002-8648"} ! betta breed
+property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
+property_value: dcterms:source "https://www.aquariumcoop.com/blogs/aquarium/betta-fish-types" xsd:anyURI
+property_value: dcterms:source "https://www.ibcbettas.org/upcoming-shows/standards/" xsd:anyURI
+property_value: dcterms:source "https://en.wikipedia.org/wiki/Siamese_fighting_fish" xsd:anyURI
+
+[Term]
+id: VBO:7770018
+name: Combtail (Betta)
+synonym: "Combtail" EXACT most_common_name [] {source="https://www.aquariumcoop.com/blogs/aquarium/betta-fish-types"}
+synonym: "Comb Tail" EXACT [] {source="https://www.aquariumcoop.com/blogs/aquarium/betta-fish-types"}
+is_a: NCBITaxon:158456 {source="https://orcid.org/0000-0002-5002-8648"} ! Betta splendens
+is_a: VBO:0400000 {source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
+is_a: VBO:7770010 {source="https://orcid.org/0000-0002-5002-8648"} ! betta breed
+property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
+property_value: dcterms:source "https://www.aquariumcoop.com/blogs/aquarium/betta-fish-types" xsd:anyURI
+property_value: dcterms:source "https://en.wikipedia.org/wiki/Siamese_fighting_fish" xsd:anyURI
+
+[Term]
+id: VBO:7770019
+name: Spade Tail (Betta)
+synonym: "Spade Tail" EXACT most_common_name [] {source="https://www.aquariumcoop.com/blogs/aquarium/betta-fish-types"}
+synonym: "Spadetail" EXACT [] {source="https://www.aquariumcoop.com/blogs/aquarium/betta-fish-types"}
+is_a: NCBITaxon:158456 {source="https://orcid.org/0000-0002-5002-8648"} ! Betta splendens
+is_a: VBO:0400000 {source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
+is_a: VBO:7770010 {source="https://orcid.org/0000-0002-5002-8648"} ! betta breed
+property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
+property_value: dcterms:source "https://www.aquariumcoop.com/blogs/aquarium/betta-fish-types" xsd:anyURI
+property_value: dcterms:source "https://en.wikipedia.org/wiki/Siamese_fighting_fish" xsd:anyURI
+
 [Typedef]
 id: VBO:0300019
 name: has foundation stock
